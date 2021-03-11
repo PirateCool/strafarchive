@@ -1,0 +1,2537 @@
+<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<!DOCTYPE HTML>
+<html lang="" dir="ltr"  data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"navyblue"}'>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="http://www.straformation.fr/sites/default/files/highlighted/slider/21.jpg" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Recrutement</title>
+  <link href="http://www.straformation.fr/?catid=0&amp;id=21" rel="canonical" />
+  <link href="/templates/yoo_peak/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/plugins/system/websitePreloader/assets/themes/flash.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jqueryintegrator/jqueryintegrator/ui-lightness/jquery-ui-1.8.6.custom.css" type="text/css" />
+  <link rel="stylesheet" href="http://straformation.fr/media/com_uniterevolution2/assets/rs-plugin/css/settings.css" type="text/css" />
+  <link rel="stylesheet" href="http://straformation.fr/media/com_uniterevolution2/assets/rs-plugin/css/dynamic-captions.css" type="text/css" />
+  <link rel="stylesheet" href="http://straformation.fr/media/com_uniterevolution2/assets/rs-plugin/css/static-captions.css" type="text/css" />
+  <link rel="stylesheet" href="http://straformation.fr/modules/mod_je_accordionmenu/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/edsanimate/assets/animate.css" type="text/css" />
+  <style type="text/css">
+
+#je_accord210.je_acc {
+	color: #E8E8E8;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+#je_accord210.je_acc > ul > li > a {
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-top: 1px solid transparent;
+	color: #E8E8E8;
+	background: #313131;
+}
+#je_accord210.je_acc > ul > li > a:hover,
+#je_accord210.je_acc > ul > li.active > a,
+#je_accord210.je_acc > ul > li.open > a {
+	color: #E8E8E8;
+	background: #1d1d1d;
+}
+#je_accord210.je_acc > ul > li.open > a {
+	border-bottom: 1px solid transparent;
+}
+#je_accord210.je_acc > ul > li:last-child > a,
+#je_accord210.je_acc > ul > li.last > a {
+	border-bottom: 1px solid transparent;
+}
+#je_accord210 .holder::after {
+	border-top: 2px solid #E8E8E8;
+	border-left: 2px solid #E8E8E8;
+}
+#je_accord210.je_acc > ul > li > a:hover > span::after,
+#je_accord210.je_acc > ul > li.active > a > span::after,
+#je_accord210.je_acc > ul > li.open > a > span::after {
+	border-color: #E8E8E8;
+}
+#je_accord210.je_acc ul ul li a {
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	color: #ffffff;
+	background: #313131;
+}
+#je_accord210.je_acc ul ul li:hover > a,
+#je_accord210.je_acc ul ul li.open > a,
+#je_accord210.je_acc ul ul li.active > a {
+	color: #ffffff;
+	background: #1d1d1d;
+}
+#je_accord210.je_acc > ul > li > ul > li.open:last-child > a,
+#je_accord210.je_acc > ul > li > ul > li.last.open > a {
+	border-bottom: 1px solid transparent;
+}
+#je_accord210.je_acc ul ul li.has-sub > a::after {
+	border-top: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+}
+#je_accord210.je_acc ul ul li.active > a::after,
+#je_accord210.je_acc ul ul li.open > a::after,
+#je_accord210.je_acc ul ul li > a:hover::after {
+	border-color: #ffffff;
+}
+
+  </style>
+  <script src="/plugins/system/websitePreloader/assets/js/preloader.min.js" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+  <script src="/plugins/system/jqueryintegrator/jqueryintegrator/jquery.noconflict.js" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="/modules/mod_imgscrawler/crawler.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/plugins/system/edsanimate/assets/viewportchecker.js" type="text/javascript"></script>
+  <script src="/plugins/system/edsanimate/assets/edsanimate.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		if(typeof(j2storeURL) == 'undefined') {
+		var j2storeURL = 'http://www.straformation.fr/';
+		}
+		
+window.addEventListener('load', function () {
+    marqueeInit({
+        uniqueid: 'myimgscrawler-1',
+        style: {
+            'width':'100%','height':'250px','background':'#ffffff'
+        },
+        inc: 2,
+        mouse: 'false',
+        direction: 'left',
+        moveatleast: 1,
+        neutral: 100,
+        savedirection: true
+    });
+},false);
+
+jQuery( function( ) {
+	jQuery( document ).ready(function() {
+	jQuery('.active').addClass('open');
+	jQuery('.active').children('ul').slideDown();
+	jQuery('#je_accord210 li.has-sub>a').on('click', function(){
+			jQuery(this).removeAttr('href');
+			var element = jQuery(this).parent('li');
+
+			if (element.hasClass('open')) {
+				element.removeClass('open');
+				element.find('li').removeClass('open');
+				element.find('ul').slideUp('normal');
+			}
+			else {
+				element.addClass('open');
+				element.children('ul').slideDown('normal');
+				element.siblings('li').children('ul').slideUp('normal');
+				element.siblings('li').removeClass('open');
+				element.siblings('li').find('li').removeClass('open');
+				element.siblings('li').find('ul').slideUp('normal');
+			}
+		});
+
+	jQuery('#je_accord210>ul>li.has-sub>a').append('<span class="holder"></span>');
+});
+});
+					
+					onScrollOffset.set(75);
+			
+  </script>
+
+<link rel="apple-touch-icon-precomposed" href="/templates/yoo_peak/apple_touch_icon.png">
+<link rel="stylesheet" href="/templates/yoo_peak/styles/navyblue/css/bootstrap.css">
+<link rel="stylesheet" href="/templates/yoo_peak/styles/navyblue/css/theme.css">
+<link rel="stylesheet" href="/templates/yoo_peak/css/custom.css">
+<script src="/templates/yoo_peak/warp/vendor/uikit/js/uikit.js"></script>
+<script src="/templates/yoo_peak/warp/vendor/uikit/js/components/autocomplete.js"></script>
+<script src="/templates/yoo_peak/warp/vendor/uikit/js/components/search.js"></script>
+<script src="/templates/yoo_peak/js/verticalDropdown.js"></script>
+<script src="/templates/yoo_peak/warp/js/social.js"></script>
+<script src="/templates/yoo_peak/js/theme.js"></script>
+<script src="/templates/yoo_peak/js/snap.svg-min.js"></script>
+</head>
+
+<body class="tm-isblog">
+<div class="tm-sidebar-fixed tm-sidebar-togglebar">
+        <div class="tm-sidebar uk-visible-large">
+
+        
+                <nav class="tm-sidebar-nav">
+            <ul id="menuid" class="uk-navbar-nav uk-hidden-small"><li class="uk-active" data-uk-dropdown="{}"><a href="/"><i class="uk-icon-home"></i> Accueil</a></li><li class="uk-parent" data-uk-dropdown="{}"><a href="#"><i class="uk-icon-book"></i> Nos formations</a>
+<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/nos-formations/les-formations.html">Les formations</a></li><li><a href="/nos-formations/co-formation.html">Co-Formation</a></li><li><a href="/nos-formations/offre-449.html">Offre 449</a></li></ul></div></div></div></li><li data-uk-dropdown="{}"><a href="/cours-de-langue.html"><i class="uk-icon-comments"></i> Cours de langues</a></li><li class="uk-parent" data-uk-dropdown="{}"><a href="#"><i class="uk-icon-briefcase"></i> Soutien Scolaire</a>
+<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/soutien-scolaire/soutien-scolaire.html">Soutien scolaire</a></li><li><a href="/soutien-scolaire/aide-aux-devoirs.html">Aide aux devoirs (Collèges)</a></li><li><a href="/soutien-scolaire/cours-particuliers.html">Cours particuliers</a></li><li><a href="/soutien-scolaire/preparation-aux-examens.html">Préparation aux examens</a></li></ul></div></div></div></li><li data-uk-dropdown="{}"><a href="/location-de-salles.html"><i class="uk-icon-group"></i> Location de salles</a></li><li data-uk-dropdown="{}"><a href="/traduction.html"><i class="uk-icon-sort-alpha-asc"></i> Traduction</a></li><li data-uk-dropdown="{}"><a href="/devenir-formateur.html"><i class="uk-icon-graduation-cap"></i> Devenir Formateur</a></li><li class="uk-parent" data-uk-dropdown="{}"><a href="#"><i class="uk-icon-map-marker"></i> Le Centre</a>
+<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/contact/contact-sous-menu.html">Contact</a></li><li><a href="/contact/qui-sommes-nous.html">Qui sommes-nous?</a></li><li><a href="/contact/reinventons-la-formation.html">Réinventons la formation</a></li><li><a href="/contact/formateur.html">Choix du formateur</a></li><li><a href="/contact/sponsors.html">Nos Références</a></li><li><a href="/contact/recrutement.html">Recrutement</a></li><li><a href="/contact/mentions-legales.html">Mentions légales</a></li><li><a href="/contact/argumenter-avec-soncas-et-cap.html">SONCAS / CAP</a></li></ul></div></div></div></li></ul>        </nav>
+        
+        
+        <i class="tm-toggle-icon"></i>
+
+    </div>
+    
+    <div class="tm-page">
+
+        <div class="uk-container uk-container-center">
+
+            
+                        <div class="tm-block ">
+                <div class="tm-headerbar uk-clearfix uk-visible-large">
+
+                    
+                    
+                    <div class="uk-panel">
+	 
+<style type="text/css"> 
+body{ 
+    /*background-color: linear-gradient(to bottom, #f6f5f6, #f6f5f6 50px, black 20%, transparent);*/ 
+     background-color: #F6F5F6; 
+     background-size: auto 50px; 
+} 
+ 
+.blockstraformation{ 
+    background-image: url("../../images/straformationNoirLogo.png"); 
+    background-size: cover; 
+    background-position: center; 
+    display: block; 
+    width: 176px; 
+    height: 20px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 11px; 
+    margin-bottom: -50px; 
+    padding: 5px 5px 5px 10px; 
+     visibility: visible; 
+} 
+ 
+@media all and (min-width:960px){ 
+    .blockstraformation{ 
+        display: none; 
+    } 
+} 
+ 
+@media all and (max-device-width: 900px){ 
+     .blockstraformation{ 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 150px; 
+        height: 15px; 
+        margin-top: 16px; 
+    } 
+} 
+ 
+</style> 
+<!-- You can place html anywhere within the source tags --> 
+<!DOCTYPE html> 
+ 
+<div class="blockstraformation"> 
+</div> 
+     
+<script language="javascript" type="text/javascript"> 
+    // You can place JavaScript like this 
+</script> 
+ 
+ 
+</div>
+                </div>
+
+                                <a href="#offcanvas" class="uk-navbar-toggle uk-navbar-flip uk-hidden-large" data-uk-offcanvas></a>
+                
+                
+            </div>
+            
+            
+                        <div class="tm-block ">
+                <section class="tm-top-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><div class="uk-width-1-1">
+	<div class="uk-panel"><!-- START REVOLUTION SLIDER 4.6 fullwidth mode -->
+<script type='text/javascript' src='http://straformation.fr/media/com_uniterevolution2/assets/rs-plugin/js/jquery.themepunch.tools.min.js?rev=4.6'></script>
+<script type='text/javascript' src='http://straformation.fr/media/com_uniterevolution2/assets/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.6'></script>
+
+<div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:927px;">
+	<div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;max-height:927px;height:927px;">
+<ul>	<!-- SLIDE  1-->
+	<li data-transition="fade,curtain-2" data-slotamount="7" data-masterspeed="300"  data-fstransition="fade" data-fsmasterspeed="100" data-fsslotamount="7" data-saveperformance="off"  class="sliderimg">
+		<!-- MAIN IMAGE -->
+		<img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/1.jpg"  alt="1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption sfl stl"
+			data-x="768"
+			data-y="486" 
+			data-speed="300"
+			data-start="1950"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 2;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/mot.png" alt="" data-ww="936.6553672316384" data-hh="382">
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption sfl str"
+			data-x="672"
+			data-y="521" 
+			data-speed="300"
+			data-start="2400"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 3;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/mot1.png" alt="" data-ww="443" data-hh="84">
+		</div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption sfb str"
+			data-x="1042"
+			data-y="762" 
+			data-speed="300"
+			data-start="3100"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 4;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/mot2.png" alt="" data-ww="357.43859649122805" data-hh="61">
+		</div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption sfr stl"
+			data-x="1282"
+			data-y="530" 
+			data-speed="300"
+			data-start="2800"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 5;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/mot3.png" alt="" data-ww="523.4285714285714" data-hh="104">
+		</div>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption customin"
+			data-x="642"
+			data-y="263" 
+			data-customin="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+			data-speed="2000"
+			data-start="0"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="20"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 6;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/logo_strasformation_blanc.png" alt="" data-ww="1179" data-hh="187">
+		</div>
+
+		<!-- LAYER NR. 6 -->
+		<div class="tp-caption tp-fade"
+			data-x="-82"
+			data-y="-854" 
+			data-speed="1500"
+			data-start="3500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			
+			style="z-index: 7;"><img src="http://straformation.fr/images/Reinventons-formation2.jpg" alt="" data-ww="2564" data-hh="1908">
+		</div>
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption tp-fade"
+			data-x="643"
+			data-y="263" 
+			data-speed="0"
+			data-start="3200"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="2"
+			data-endelementdelay="10"
+			data-endspeed="1000"
+
+			style="z-index: 8;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/logo_strasformation_blanc.png" alt="" data-ww="1179" data-hh="187">
+		</div>
+	</li>
+	<!-- SLIDE  2-->
+	<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off"  class="sliderimg">
+		<!-- MAIN IMAGE -->
+		<img src="http://straformation.fr/images/Accueil2/slide1bis.jpg"  alt="slide1bis"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption lfb ltl"
+			data-x="1245"
+			data-y="88" 
+			data-speed="2000"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 2;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/slide1barre.png" alt="" data-ww="873" data-hh="109">
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption customin ltb"
+			data-x="696"
+			data-y="311" 
+			data-customin="x:0;y:50;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+			data-speed="2000"
+			data-start="1900"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="400"
+
+			style="z-index: 3;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/slide1logo.png" alt="" data-ww="159.42647058823528" data-hh="293">
+		</div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption large_bold_white_Slider lfb ltl tp-resizeme"
+			data-x="1257"
+			data-y="110" 
+			data-speed="2000"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Formations professionnelles
+		</div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption tp-fade"
+			data-x="29"
+			data-y="29" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 5;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/logo_strasformation_blanc.png" alt="" data-ww="353.06951871657753" data-hh="56">
+		</div>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption large_text sfr tp-resizeme"
+			data-x="1300"
+			data-y="288" 
+			data-speed="300"
+			data-start="1900"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">370 formations en Inter / Intra à la carte
+		</div>
+
+		<!-- LAYER NR. 6 -->
+		<div class="tp-caption sfr"
+			data-x="1251"
+			data-y="290" 
+			data-speed="300"
+			data-start="1900"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 7;"><div class="tp-layer-inner-rotation  " style=" -moz-transform: rotate(359deg); -ms-transform: rotate(359deg); -o-transform: rotate(359deg); -webkit-transform: rotate(359deg); transform: rotate(359deg); -moz-transform-origin: 50% 50%; -ms-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%;">
+<img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/V.png" alt="" data-ww="34" data-hh="34">
+				</div>
+		</div>
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption large_text sfr tp-resizeme"
+			data-x="1300"
+			data-y="378" 
+			data-speed="300"
+			data-start="2050"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">Les formateurs peuvent vous accompagner sur le terrain
+		</div>
+
+		<!-- LAYER NR. 8 -->
+		<div class="tp-caption sfr"
+			data-x="1251"
+			data-y="380" 
+			data-speed="300"
+			data-start="2050"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 9;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/V.png" alt="" data-ww="34" data-hh="34">
+		</div>
+
+		<!-- LAYER NR. 9 -->
+		<div class="tp-caption large_text sfr tp-resizeme"
+			data-x="1300"
+			data-y="468" 
+			data-speed="300"
+			data-start="2200"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;">Dates / Lieux / Horaires modulables
+		</div>
+
+		<!-- LAYER NR. 10 -->
+		<div class="tp-caption sfr"
+			data-x="1252"
+			data-y="471" 
+			data-speed="300"
+			data-start="2200"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 11;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/V.png" alt="" data-ww="34" data-hh="34">
+		</div>
+
+		<!-- LAYER NR. 11 -->
+		<div class="tp-caption large_text sfr tp-resizeme"
+			data-x="1300"
+			data-y="558" 
+			data-speed="300"
+			data-start="2350"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;">Formations en petit groupe
+		</div>
+
+		<!-- LAYER NR. 12 -->
+		<div class="tp-caption sfr"
+			data-x="1251"
+			data-y="561" 
+			data-speed="300"
+			data-start="2350"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 13;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/V.png" alt="" data-ww="34" data-hh="34">
+		</div>
+
+		<!-- LAYER NR. 13 -->
+		<div class="tp-caption large_text sfr tp-resizeme"
+			data-x="1300"
+			data-y="648" 
+			data-speed="300"
+			data-start="2500"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 14; max-width: auto; max-height: auto; white-space: nowrap;">Tarifs compétitifs et dégressifs 
+		</div>
+
+		<!-- LAYER NR. 14 -->
+		<div class="tp-caption sfr"
+			data-x="1251"
+			data-y="651" 
+			data-speed="300"
+			data-start="2500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 15;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/V.png" alt="" data-ww="34" data-hh="34">
+		</div>
+
+		<!-- LAYER NR. 15 -->
+		<div class="tp-caption large_text sfr tp-resizeme"
+			data-x="1300"
+			data-y="738" 
+			data-speed="300"
+			data-start="2650"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 16; max-width: auto; max-height: auto; white-space: nowrap;">Partout en France
+		</div>
+
+		<!-- LAYER NR. 16 -->
+		<div class="tp-caption sfr"
+			data-x="1251"
+			data-y="741" 
+			data-speed="300"
+			data-start="2650"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 17;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/V.png" alt="" data-ww="34" data-hh="34">
+		</div>
+	</li>
+	<!-- SLIDE  3-->
+	<li data-transition="slideup" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off"  class="sliderimg">
+		<!-- MAIN IMAGE -->
+		<img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide2.jpg"  alt="Slide2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption lfr"
+			data-x="591"
+			data-y="172" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 2;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide2icone.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption lfl"
+			data-x="487"
+			data-y="537" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 3;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide2texte.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption lfr"
+			data-x="1189"
+			data-y="170" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 4;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide2icone3.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption lfl"
+			data-x="1078"
+			data-y="538" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 5;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide2texte1.png" alt="" data-ww="502.7311827956989" data-hh="97">
+		</div>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption lfr"
+			data-x="1816"
+			data-y="131" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 6;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide2icone1.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 6 -->
+		<div class="tp-caption lfl"
+			data-x="1597"
+			data-y="532" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 7;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide2texte2.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption sft"
+			data-x="505"
+			data-y="22" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 8;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide2fleche.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 8 -->
+		<div class="tp-caption sft"
+			data-x="186"
+			data-y="184" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 9;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide2fleche1.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 9 -->
+		<div class="tp-caption lfr"
+			data-x="right" data-hoffset="-113"
+			data-y="bottom" data-voffset="-43"
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 10;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide2textebutton.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 10 -->
+		<div class="tp-caption tp-fade"
+			data-x="29"
+			data-y="29" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 11;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/logo_strasformation_blanc.png" alt="" data-ww="353" data-hh="56">
+		</div>
+	</li>
+	<!-- SLIDE  4-->
+	<li data-transition="slideleft" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off"  class="sliderimg">
+		<!-- MAIN IMAGE -->
+		<img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/slide3.image.jpg"  alt="slide3.image"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption lft ltt"
+			data-x="673"
+			data-y="-10" 
+			data-speed="300"
+			data-start="450"
+			data-easing="Bounce.easeOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 2;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide3.4.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption lft ltt"
+			data-x="328"
+			data-y="6" 
+			data-speed="300"
+			data-start="400"
+			data-easing="Bounce.easeOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 3;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide3.3.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption lft ltt"
+			data-x="center" data-hoffset="134"
+			data-y="0" 
+			data-speed="488"
+			data-start="600"
+			data-easing="Bounce.easeOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 4;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide3.6.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption lft ltt"
+			data-x="887"
+			data-y="-18" 
+			data-speed="300"
+			data-start="550"
+			data-easing="Bounce.easeOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 5;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide3.5.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption lft"
+			data-x="right" data-hoffset="-416"
+			data-y="2" 
+			data-speed="300"
+			data-start="550"
+			data-easing="Bounce.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 6;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide3.8.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 6 -->
+		<div class="tp-caption lft"
+			data-x="right" data-hoffset="-655"
+			data-y="4" 
+			data-speed="425"
+			data-start="300"
+			data-easing="Bounce.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 7;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide3.7.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption lft"
+			data-x="right" data-hoffset="-178"
+			data-y="6" 
+			data-speed="534"
+			data-start="600"
+			data-easing="Bounce.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 8;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/Slide3.9.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 8 -->
+		<div class="tp-caption sfr"
+			data-x="right" data-hoffset="-771"
+			data-y="bottom" data-voffset="-75"
+			data-speed="300"
+			data-start="500"
+			data-easing="Power0.easeIn"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 9;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/Accueil2/slide3.button.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 9 -->
+		<div class="tp-caption tp-fade"
+			data-x="29"
+			data-y="29" 
+			data-speed="300"
+			data-start="650"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 10;"><img src="http://straformation.fr/images/uniterevolution/Accueil/images/logo_strasformation_blanc.png" alt="" data-ww="353" data-hh="56">
+		</div>
+	</li>
+	<!-- SLIDE  5-->
+	<li data-transition="slidedown" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off"  class="sliderimg">
+		<!-- MAIN IMAGE -->
+		<img src="http://straformation.fr/images/slider449/Slide1.jpg"  alt="Slide1"  data-bgposition="center top" data-bgfit="100% 100%" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption lfl"
+			data-x="-1"
+			data-y="-1" 
+			data-speed="1200"
+			data-start="0"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 2;"><img src="http://straformation.fr/images/slider449/Slide2.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption lfr"
+			data-x="right" data-hoffset="-1"
+			data-y="center" data-voffset="-51"
+			data-speed="1200"
+			data-start="2450"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 3;"><img src="http://straformation.fr/images/slider449/slide4.png" alt="" data-ww="1442" data-hh="1070">
+		</div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption sfr"
+			data-x="1821"
+			data-y="27" 
+			data-speed="300"
+			data-start="3100"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 4;"><img src="http://straformation.fr/images/slider449/communitymanagement.png" alt="" data-ww="518" data-hh="110">
+		</div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption sfr"
+			data-x="1604"
+			data-y="151" 
+			data-speed="300"
+			data-start="3200"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 5;"><img src="http://straformation.fr/images/slider449/creersonsite.png" alt="" data-ww="538" data-hh="104">
+		</div>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption sfr"
+			data-x="1677"
+			data-y="260" 
+			data-speed="300"
+			data-start="3300"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 6;"><img src="http://straformation.fr/images/slider449/gestiondustress.png" alt="" data-ww="336" data-hh="82">
+		</div>
+
+		<!-- LAYER NR. 6 -->
+		<div class="tp-caption sfr"
+			data-x="2059"
+			data-y="282" 
+			data-speed="300"
+			data-start="3400"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 7;"><img src="http://straformation.fr/images/slider449/Lestechniquesdevente.png" alt="" data-ww="586" data-hh="92">
+		</div>
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption lfr"
+			data-x="2341"
+			data-y="155" 
+			data-speed="300"
+			data-start="3500"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 8;"><img src="http://straformation.fr/images/slider449/PNL.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 8 -->
+		<div class="tp-caption sfr"
+			data-x="1896"
+			data-y="447" 
+			data-speed="300"
+			data-start="3600"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 9;"><img src="http://straformation.fr/images/slider449/Lessentiel.png" alt="" data-ww="678" data-hh="134">
+		</div>
+
+		<!-- LAYER NR. 9 -->
+		<div class="tp-caption sfr"
+			data-x="1524"
+			data-y="445" 
+			data-speed="300"
+			data-start="3700"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 10;"><img src="http://straformation.fr/images/slider449/Indesign.png" alt="" data-ww="248" data-hh="122">
+		</div>
+
+		<!-- LAYER NR. 10 -->
+		<div class="tp-caption sfr"
+			data-x="1581"
+			data-y="370" 
+			data-speed="300"
+			data-start="3850"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 11;"><img src="http://straformation.fr/images/slider449/Photoshop.png" alt="" data-ww="216" data-hh="274">
+		</div>
+
+		<!-- LAYER NR. 11 -->
+		<div class="tp-caption lfl"
+			data-x="1795"
+			data-y="601" 
+			data-speed="700"
+			data-start="4850"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 12;"><img src="http://straformation.fr/images/slider449/etbiendautres.png" alt="" data-ww="760" data-hh="90">
+		</div>
+
+		<!-- LAYER NR. 12 -->
+		<div class="tp-caption lfb"
+			data-x="1750"
+			data-y="764" 
+			data-speed="800"
+			data-start="5850"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 13;"><a href="http://lapideria.fr/index.php/nos-formations/offre-449"><img src="http://straformation.fr/images/slider449/ensavoirplus.png" alt="" data-ww="413.2307692307692" data-hh="68"></a>
+		</div>
+
+		<!-- LAYER NR. 13 -->
+		<div class="tp-caption tp-fade"
+			data-x="484"
+			data-y="148" 
+			data-speed="1000"
+			data-start="850"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 14;"><img src="http://straformation.fr/images/slider449/Slide3.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 14 -->
+		<div class="tp-caption sfl"
+			data-x="43"
+			data-y="544" 
+			data-speed="1300"
+			data-start="850"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 15;"><img src="http://straformation.fr/images/slider449/Formationde4.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 15 -->
+		<div class="tp-caption tp-fade"
+			data-x="873"
+			data-y="425" 
+			data-speed="1000"
+			data-start="850"
+			data-easing="Power3.easeInOut"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 16;"><img src="http://straformation.fr/images/slider449/cercle.png" alt="">
+		</div>
+
+		<!-- LAYER NR. 16 -->
+		<div class="tp-caption customin"
+			data-x="849"
+			data-y="425" 
+			data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:-180;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 5%;"
+			data-speed="1000"
+			data-start="850"
+			data-easing="Quad.easeIn"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+
+			style="z-index: 17;"><img src="http://straformation.fr/images/slider449/plaque.png" alt="">
+		</div>
+	</li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="display:none; visibility: hidden !important;"></div>	</div>
+			
+			<script type="text/javascript">
+
+					
+				/******************************************
+					-	PREPARE PLACEHOLDER FOR SLIDER	-
+				******************************************/
+								
+				 
+						var setREVStartSize = function() {
+							var	tpopt = new Object(); 
+								tpopt.startwidth = 2482;
+								tpopt.startheight = 927;
+								tpopt.container = jQuery('#rev_slider_2_1');
+								tpopt.fullScreen = "off";
+								tpopt.forceFullWidth="off";
+
+							tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+						};
+						
+						/* CALL PLACEHOLDER */
+						setREVStartSize();
+								
+				
+				var tpj=jQuery;				
+				tpj.noConflict();				
+				var revapi2;
+				
+				
+				
+				tpj(document).ready(function() {
+				
+					
+								
+				if(tpj('#rev_slider_2_1').revolution == undefined)
+					revslider_showDoubleJqueryError('#rev_slider_2_1');
+				else
+				   revapi2 = tpj('#rev_slider_2_1').show().revolution(
+					{
+						dottedOverlay:"none",
+						delay:6000,
+						startwidth:2482,
+						startheight:927,
+						hideThumbs:200,
+						
+						thumbWidth:100,
+						thumbHeight:50,
+						thumbAmount:5,
+													
+						simplifyAll:"on",						
+						navigationType:"none",
+						navigationArrows:"solo",
+						navigationStyle:"round",						
+						touchenabled:"on",
+						onHoverStop:"on",						
+						nextSlideOnWindowFocus:"off",
+						
+						swipe_threshold: 75,
+						swipe_min_touches: 1,
+						drag_block_vertical: true,
+																		
+																		
+						keyboardNavigation:"off",
+						
+						navigationHAlign:"center",
+						navigationVAlign:"bottom",
+						navigationHOffset:0,
+						navigationVOffset:20,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+								
+						shadow:0,
+						fullWidth:"on",
+						fullScreen:"off",
+
+						spinner:"spinner3",
+						
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+
+						shuffle:"off",
+						
+						autoHeight:"off",						
+						forceFullWidth:"off",						
+												
+												
+						hideTimerBar:"on",						
+						hideThumbsOnMobile:"off",
+						hideNavDelayOnMobile:1500,
+						hideBulletsOnMobile:"off",
+						hideArrowsOnMobile:"off",
+						hideThumbsUnderResolution:0,
+						
+												hideSliderAtLimit:451,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						startWithSlide:0,
+						isJoomla: true
+					});
+					
+					
+					
+									
+				});	/*ready*/
+									
+			</script>
+			
+			<style type="text/css">
+	#rev_slider_2_1_wrapper .tp-loader.spinner3 div { background-color: #FFFFFF !important; }
+</style>
+</div>
+<!-- END REVOLUTION SLIDER -->	</div></div></section>
+            </div>
+            
+                        <div class="tm-block ">
+                <section class="tm-top-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><div class="uk-width-1-1">
+	<div class="uk-panel">
+	 
+ 
+<style> 
+ 
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; } 
+.clearfix:before, .clearfix:after { display: table; content: ''; } 
+.clearfix:after { clear: both; } 
+ 
+ 
+ 
+ 
+.degrade { 
+ 
+    background-image:linear-gradient(to right, #C216A1, #D71515); 
+ 
+    background-size:cover contain; 
+ 
+    background-position : center center; 
+ 
+    width:100%; 
+ 
+    height:175px; 
+ 
+    text-align:center; 
+ 
+} 
+ 
+.degrtexte { 
+ 
+    text-align:center; 
+ 
+    width:75%; 
+ 
+    height:75%; 
+ 
+    font-size:25px; 
+ 
+    color:#ffffff;http://straformation.fr/administrator/index.php?option=com_modules&view=module&layout=edit&id=123 
+ 
+    display:block; 
+ 
+    padding-top:75px; 
+ 
+    margin : 0 auto; 
+    font-family: Futura, Lato, OpenSans, Helvetica, Arial, sans-serif, !important; 
+ 
+ 
+} 
+ 
+.grid { 
+    position: relative; 
+    clear: both; 
+    list-style: none; 
+    text-align: center; 
+} 
+ 
+/* Common style */ 
+.grid figure { 
+    position: relative; 
+    float: left; 
+    overflow: hidden; 
+    width: 33%; 
+    background: #3085a3; 
+    text-align: center; 
+    cursor: pointer; 
+    margin: 0px; 
+    padding: 0px; 
+} 
+ 
+#figuremiddle { 
+    min-width: 34%; 
+    max-width: 34%;   
+    width: 34%; 
+} 
+ 
+.grid figure img { 
+    position: relative; 
+    display: block; 
+    min-height: 100%; 
+    max-width: 100%; 
+    opacity: 0.8; 
+} 
+ 
+.grid figure figcaption { 
+    padding: 2em; 
+    color: #fff; 
+    text-transform: uppercase; 
+    font-size: 1.25em; 
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden; 
+} 
+ 
+.grid figure figcaption::before, 
+.grid figure figcaption::after { 
+    pointer-events: none; 
+} 
+ 
+.grid figure figcaption, 
+.grid figure figcaption > a { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+} 
+ 
+/* Anchor will cover the whole item by default */ 
+/* For some effects it will show as a button */ 
+.grid figure figcaption > a { 
+    z-index: 1000; 
+    text-indent: 200%; 
+    white-space: nowrap; 
+    font-size: 0; 
+    opacity: 0; 
+} 
+ 
+.grid figure h2 { 
+    word-spacing: -0.15em; 
+    font-weight: 300; 
+} 
+ 
+.grid figure h2 span { 
+    font-weight: 800; 
+} 
+ 
+.grid figure h2, 
+.grid figure p { 
+    margin: 0; 
+} 
+ 
+.grid figure p { 
+    letter-spacing: 1px; 
+    font-size: 68.5%; 
+} 
+ 
+@font-face { 
+ 
+font-weight: normal; 
+ 
+font-style: normal; 
+ 
+font-family: 'feathericons'; 
+ 
+src:url('../fonts/feathericons/feathericons.eot?-8is7zf'); 
+ 
+src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'), 
+ 
+url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'), 
+ 
+url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'), 
+ 
+url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg'); 
+ 
+} 
+ 
+@font-face { 
+    font-family:'Lato'; 
+    src:url('http://straformation.fr/lesformations/Lato-Regular.ttf') format('truetype'); 
+} 
+ 
+@font-face { 
+    font-family:'Futura'; 
+    src: url('http://straformation.fr/coursdelangue/futura-book.ttf') format('truetype'); 
+} 
+ 
+/* Common style */ 
+ 
+.grid figure { 
+ 
+position: relative; 
+ 
+float: left; 
+ 
+overflow: hidden; 
+ 
+margin: 0px; 
+ 
+min-width: 33%; 
+ 
+max-width: 33%; 
+ 
+height: 300px; 
+ 
+width: 33%; 
+ 
+background: #3085a3; 
+ 
+text-align: center; 
+ 
+cursor: pointer; 
+ 
+} 
+ 
+  
+ 
+.grid figure img { 
+ 
+position: relative; 
+ 
+display: block; 
+ 
+min-height: 100%; 
+ 
+max-width: 100%; 
+ 
+opacity: 0.8; 
+ 
+} 
+ 
+  
+ 
+.grid figure figcaption { 
+ 
+padding: 2em; 
+ 
+color: #fff; 
+ 
+text-transform: none; 
+ 
+font-size: 1.25em; 
+ 
+-webkit-backface-visibility: hidden; 
+ 
+backface-visibility: hidden; 
+ 
+} 
+ 
+  
+ 
+.grid figure figcaption::before, 
+ 
+.grid figure figcaption::after { 
+ 
+pointer-events: none; 
+ 
+} 
+ 
+  
+ 
+.grid figure figcaption, 
+ 
+.grid figure figcaption > a { 
+ 
+position: absolute; 
+ 
+top: 0; 
+ 
+left: 0; 
+ 
+width: 100%; 
+ 
+height: 100%; 
+ 
+} 
+ 
+  
+ 
+/* Anchor will cover the whole item by default */ 
+ 
+/* For some effects it will show as a button */ 
+ 
+.grid figure figcaption > a { 
+ 
+z-index: 1000; 
+ 
+text-indent: 200%; 
+ 
+white-space: nowrap; 
+ 
+font-size: 0; 
+ 
+opacity: 0; 
+ 
+} 
+ 
+  
+ 
+.grid figure h2 { 
+ 
+word-spacing: 0.2em; 
+ 
+color: white; 
+ 
+text-shadow: 0 0 10px black; 
+ 
+font-family:Futura, Lato, Helvetica, OpenSans, Arial, sans-serif !important; 
+ 
+} 
+ 
+ 
+ 
+.grid figure h2 span { 
+ 
+font-weight: 800; 
+ 
+} 
+ 
+  
+ 
+.grid figure h2, 
+ 
+.grid figure p { 
+ 
+margin: 0; 
+ 
+} 
+ 
+  
+ 
+.grid figure p { 
+ 
+letter-spacing: 1px; 
+ 
+font-size: 68.5%; 
+ 
+} 
+ 
+  
+ 
+/* Individual effects */ 
+ 
+  
+ 
+/*---------------*/ 
+/***** Ming *****/ 
+/*---------------*/ 
+ 
+figure.effect-ming { 
+    background: #030c17; 
+} 
+ 
+figure.effect-ming img { 
+    opacity: 0.9; 
+    -webkit-transition: opacity 0.35s; 
+    transition: opacity 0.35s; 
+} 
+ 
+figure.effect-ming figcaption::before { 
+    position: absolute; 
+    top: 30px; 
+    right: 30px; 
+    bottom: 30px; 
+    left: 30px; 
+    border: 2px solid #fff; 
+    box-shadow: 0 0 0 30px rgba(255,255,255,0.2); 
+    content: ''; 
+    opacity: 0; 
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; 
+    transition: opacity 0.35s, transform 0.35s; 
+    -webkit-transform: scale3d(1.4,1.4,1); 
+    transform: scale3d(1.4,1.4,1); 
+} 
+ 
+figure.effect-ming h2 { 
+    margin: 20% 0 10px 0; 
+    -webkit-transition: -webkit-transform 0.35s; 
+    transition: transform 0.35s; 
+} 
+ 
+figure.effect-ming p { 
+    padding: 1em; 
+    opacity: 0; 
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; 
+    transition: opacity 0.35s, transform 0.35s; 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+    font-family:Futura, Lato, OpenSans, Helvetica, Arial, sans-serif !important; 
+} 
+ 
+figure.effect-ming:hover h2 { 
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9); 
+} 
+ 
+figure.effect-ming:hover figcaption::before, 
+figure.effect-ming:hover p { 
+    opacity: 1; 
+    -webkit-transform: scale3d(1,1,1); 
+    transform: scale3d(1,1,1); 
+} 
+ 
+figure.effect-ming:hover figcaption { 
+    background-color: rgba(58,52,42,0); 
+} 
+ 
+figure.effect-ming:hover img { 
+    opacity: 0.4; 
+} 
+ 
+ 
+@media all and (max-width: 580px){ 
+    .grid figure { 
+        width:100% !important; 
+        min-width:100% !important; 
+        max-width:100% !important; 
+        height:125px; 
+    } 
+    figure.effect-ming p{ 
+        display:none; 
+    } 
+    figure.effect-ming h2{ 
+        margin:0px !important; 
+        font-size:15px; 
+    } 
+    .degrade { 
+        height:85px !important; 
+    } 
+    .degrtexte { 
+        font-size:15px !important; 
+        padding-top:16px !important; 
+    }    
+} 
+ 
+ 
+</style> 
+ 
+ 
+<meta charset="UTF-8" /> 
+ 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 
+<title>Hover Effect Ideas | Set 1</title> 
+ 
+<meta name="description" content="Hover Effect Ideas: Inspiration for subtle hover effects" /> 
+ 
+<meta name="keywords" content="hover effect, inspiration, grid, thumbnail, transition, subtle, web design" /> 
+ 
+<meta name="author" content="Codrops" /> 
+ 
+<link rel="shortcut icon" href="/../favicon.ico"> 
+ 
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'> 
+ 
+<link rel="stylesheet" type="text/css" href="/css/normalize.css" /> 
+ 
+<link rel="stylesheet" type="text/css" href="/css/demo.css" /> 
+ 
+<link rel="stylesheet" type="text/css" href="/css/set1.css" /> 
+ 
+<!--[if IE]> 
+ 
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+ 
+<![endif]--> 
+ 
+ 
+ 
+  
+<div class="degrade"> 
+ 
+    <p class="degrtexte" style="vertical-align:middle;"> 
+ 
+        ORGANISME DE FORMATION PROFESSIONNELLE CONTINUE 
+ 
+    </p> 
+ 
+</div> 
+  
+ 
+<div class="grid"> 
+ 
+ 
+ 
+ 
+<figure class="effect-ming"> 
+ 
+<img src="/images/formations.jpg" alt="img12"/> 
+ 
+<figcaption> 
+ 
+<div> 
+ 
+<h2>FORMATIONS</h2> 
+ 
+<p>Des formations intra-inter dans toute la France.<br> 
+En petit groupe ou en face à face, nos formations sont adapté à vos besoins.</p> 
+ 
+</div> 
+ 
+<a href="http://straformation.fr/nos-formations/les-formations.html">View more</a> 
+ 
+</figcaption> 
+ 
+</figure> 
+ 
+ 
+ 
+ 
+<figure class="effect-ming"> 
+ 
+<img src="/images/coform.jpg" alt="img12"/> 
+ 
+<figcaption> 
+ 
+<div> 
+ 
+<h2>CO-FORMATION</h2> 
+ 
+<p>Le covoiturage de l'apprentissage ! 
+ 
+Concept inventé par Straformation, la co-formation vous permet d'avoir accès à des formations, même lorsque vos droits à la formation sont limités.</p> 
+ 
+</div> 
+ 
+<a href="http://www.straformation.fr/nos-formations/co-formation.html">View more</a> 
+ 
+</figcaption> 
+ 
+</figure> 
+ 
+ 
+ 
+ 
+ 
+<figure id="figuremiddle" class="effect-ming"> 
+ 
+<img src="/images/languev2.jpg" alt="img12"/> 
+ 
+<figcaption> 
+ 
+<div> 
+ 
+<h2>COURS DE LANGUES</h2> 
+ 
+<p>Perfectionnez vos compétences en langues en face à face pédagogique ou au sein d'un groupe réduit de 3 à 9 personnes.</p> 
+ 
+ 
+</div> 
+ 
+<a href="http://straformation.fr/cours-de-langue.html">View more</a> 
+ 
+</figcaption> 
+ 
+</figure> 
+ 
+ 
+ 
+ 
+ 
+<figure class="effect-ming"> 
+ 
+<img src="/images/0225_width_1339(1).jpg" alt="img12"/> 
+ 
+<figcaption> 
+ 
+<div> 
+ 
+<h2>SOUTIEN SCOLAIRE</h2> 
+ 
+        <p>Des services de soutien scolaire à Strasbourg et ses alentours pour les niveaux collège et lycée : 
+ 
+               Aide aux devoirs, Cours particuliers et Stages intensifs de préparation aux examens 
+        </p> 
+</div> 
+ 
+<a href="http://straformation.fr/soutien-scolaire/soutien-scolaire.html">View more</a> 
+ 
+</figcaption> 
+ 
+</figure> 
+ 
+ 
+ 
+ 
+ 
+<figure class="effect-ming"> 
+ 
+<img src="/images/Location/Locationdesalle4.jpg" alt="img12"/> 
+ 
+<figcaption> 
+ 
+<div> 
+ 
+<h2>LOCATION DE SALLES</h2> 
+ 
+    <p>Des salles de cours, de formation, de réunion ou autres, équipées et situées 
+    au coeur du quartier de l'Esplanade, à proximité des transports en commun et à 10 minute du centre-ville. 
+    </p> 
+ 
+</div> 
+ 
+<a href="http://straformation.fr/location-de-salles.html">View more</a> 
+ 
+</figcaption> 
+ 
+</figure> 
+ 
+ 
+ 
+ 
+ 
+<figure id="figuremiddle" class="effect-ming"> 
+ 
+<img src="/images/traduction.jpg" alt="img12"/> 
+ 
+<figcaption> 
+ 
+<div> 
+ 
+<h2>TRADUCTION</h2> 
+ 
+<p>Straformation met à votre disposition des traducteurs 
+et des interprètes à Strasbourg et partout en France. </p> 
+ 
+</div> 
+ 
+<a href="http://straformation.fr/traduction.html">View more</a> 
+ 
+</figcaption> 
+ 
+</figure> 
+ 
+</div> 
+ 
+</div></div></section>
+            </div>
+            
+                        <div class="tm-block ">
+                <section class="tm-top-c uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><div class="uk-width-1-1">
+	<div class="uk-panel">
+	 
+<style> 
+ 
+  
+ 
+@font-face { 
+    font-family:'Lato'; 
+    src:url('http://straformation.fr/lesformations/Lato-Regular.ttf') format('truetype'); 
+} 
+ 
+@font-face { 
+    font-family:'Futura'; 
+    src: url('http://straformation.fr/coursdelangue/futura-book.ttf') format('truetype'); 
+} 
+ 
+.titrePrincipal { 
+    font-family : Futura, Lato, OpenSans, Helvetica, Arial, sans-serif !important; 
+    font-size:20px; 
+    margin-top : 10px ; 
+    text-align:center; 
+    color:#ffffff; 
+} 
+.principale { 
+    max-width : 1400000000000000000000000px; 
+    margin: 0 auto; 
+    display:block; 
+    padding:30px 0px; 
+} 
+     
+.responsive { 
+    width:100%; 
+    text-align:center; 
+    margin : 0 auto; 
+} 
+     
+.avantage { 
+    display:inline-table; 
+    width:222px; 
+    height:170px; 
+} 
+     
+.texteAvantage { 
+    font-size:11px; 
+    color:white; 
+    text-align:center; 
+    margin-top:0px; 
+    margin-bottom:6px; 
+    font-family : Futura, Lato, OpenSans, Helvetica, Arial, sans-serif !important; 
+     
+} 
+     
+.iconeAvantage { 
+    width:auto; 
+    height:40px; 
+    margin-right:auto; 
+    background-position:50%; 
+} 
+     
+.titreAvantage { 
+    margin-top:10px; 
+    text-align:center; 
+    margin-bottom:2px; 
+    font-weight:bold; 
+    color:white; 
+    font-family : Futura, Lato, OpenSans, Helvetica, Arial, sans-serif !important; 
+    font-size:15px; 
+} 
+     
+.background { 
+    background-image: linear-gradient(to right, #216EA6, #20A2D0); 
+    background-size:cover; 
+    background-position:center; 
+} 
+     
+table { 
+    display:inline; 
+    text-align:center; 
+    margin : 0 auto; 
+} 
+ 
+.resp1 { 
+    display:none; 
+} 
+ 
+@media all and (max-width: 850px){ 
+ 
+    .offrenonresp { 
+        display:none; 
+    } 
+     
+    .offreresp { 
+        display:block !important; 
+    } 
+ 
+    .damierresp { 
+        display:none; 
+    } 
+     
+    .degrade { 
+        height:50px; 
+    } 
+     
+    .degrtexte { 
+    font-size:25px; 
+    padding-top:25px; 
+    } 
+     
+} 
+ 
+@media all and (max-width : 390px) { 
+    .cellheight { 
+        font-size:12px; 
+    } 
+     
+    h3 { 
+        font-size:14px; 
+    } 
+     
+    .texteoffre { 
+        font-size:12px; 
+        padding:5px; 
+    } 
+     
+} 
+ 
+@media all and (max-width : 320px) { 
+    .damier { 
+        height:auto; 
+    } 
+} 
+ 
+.avantageresp { 
+    display:inline-block; 
+    margin : 0 auto; 
+    padding : 0px 20px; 
+} 
+ 
+h1 { 
+    color:white; 
+    font-family : Futura, Lato, OpenSans, Helvetica, Arial, sans-serif !important; 
+    padding-bottom:25px; 
+} 
+ 
+@media all and (max-width : 688px){ 
+    .resp2{ 
+        display:none !important; 
+    } 
+     
+    .resp1{ 
+        display:inline-block !important; 
+    } 
+     
+    .iconeAvantage { 
+        display:none; 
+    } 
+     
+    span { 
+        display:inline !important; 
+    } 
+     
+    .avantage { 
+        height:110px; 
+    } 
+} 
+ 
+span { 
+    display : none; 
+    font-size:17px; 
+} 
+</style> 
+ 
+ 
+<div class="background uk-panel"> 
+    <div class="principale"> 
+        <div class="responsive"> 
+        <h1 style="font-size: 25px;"> 
+            NOS AVANTAGES 
+        </h1> 
+            <div class="avantage  animated fadein duration10 eds-on-scroll "> 
+                <img src="/../images/IconeAvantage/iconchoix.png" class="iconeAvantage"/> 
+                <h6 class="titreAvantage"> 
+                    <span>✓&nbsp;</span>CHOIX</h6> 
+                <p class="texteAvantage"> 
+                    Plus de 370 formations à la carte, dans divers domaines. 
+                </p> 
+            </div> 
+            <div class="avantage  animated fadein duration10 eds-on-scroll "> 
+                <img src="/../images/IconeAvantage/iconformationaction.png" class="iconeAvantage"/> 
+                <h6 class="titreAvantage"> 
+                    <span>✓&nbsp;</span>FORMATION ACTION 
+                </h6> 
+                <p class="texteAvantage"> 
+                    Les formateurs peuvent vous accompagner sur le terrain. 
+                </p> 
+            </div> 
+            <div class="avantage  animated fadein duration10 eds-on-scroll "> 
+                <img src="/../images/IconeAvantage/iconformationespace.png" class="iconeAvantage"/> 
+                <h6 class="titreAvantage"> 
+                    <span>✓&nbsp;</span>FORMATION ESPACÉE 
+                </h6> 
+                <p class="texteAvantage"> 
+                    Les journées de formation peuvent être espacées afin d’alterner théorie et pratique. 
+                </p> 
+            </div> 
+            <div class="avantage resp1  animated fadein  duration10 eds-on-scroll "> 
+                <img src="/../images/IconeAvantage/iconqualite.png" class="iconeAvantage" /> 
+                <h6 class="titreAvantage"> 
+                    <span>✓&nbsp;</span>QUALITÉ 
+                </h6> 
+                <p class="texteAvantage"> 
+                    Apprentissage en petit groupe (maximum 9) et/ou en individuel pour un meilleur suivi. 
+                </p> 
+            </div> 
+            <br> 
+            <div class="avantage resp2  animated fadein  duration10 delay2 eds-on-scroll "> 
+                <img src="/../images/IconeAvantage/iconqualite.png" class="iconeAvantage" /> 
+                <h6 class="titreAvantage"> 
+                    <span>✓&nbsp;</span>QUALITÉ 
+                </h6> 
+                <p class="texteAvantage"> 
+                    Apprentissage en petit groupe (maximum 9) et/ou en individuel pour un meilleur suivi. 
+                </p> 
+            </div> 
+            <div class="avantage  animated fadein delay2 duration10 eds-on-scroll "> 
+                <img src="/../images/IconeAvantage/iconsouplesse.png" class="iconeAvantage" /> 
+                <h6 class="titreAvantage"> 
+                    <span>✓&nbsp;</span>SOUPLESSE 
+                </h6> 
+                <p class="texteAvantage"> 
+                    Nous conviendrons ensemble du lieu, des dates et des     horaires de votre formation. 
+                </p> 
+            </div> 
+            <div class="avantage  animated fadein delay2 duration10 eds-on-scroll "> 
+                <img src="/../images/IconeAvantage/iconaccessibilite.png" class="iconeAvantage" /> 
+                <h6 class="titreAvantage"> 
+                    <span>✓&nbsp;</span>ACCESSIBILITÉ 
+                </h6> 
+                <p class="texteAvantage"> 
+                    Parkings environnants gratuits. Centre à proximité des Tram et des Bus. 
+                </p> 
+            </div> 
+            <br> 
+            <div class="avantage  animated fadein delay4 duration10 eds-on-scroll "> 
+                <img src="/../images/IconeAvantage/iconproximite.png" class="iconeAvantage" /> 
+                <h6 class="titreAvantage"> 
+                    <span>✓&nbsp;</span>PROXIMITÉ 
+                </h6> 
+                <p class="texteAvantage"> 
+                    <span></span>Directement en relation avec les responsables. 
+                </p> 
+            </div> 
+            <div class="avantage  animated fadein delay4 duration10 eds-on-scroll "> 
+                <img src="/../images/IconeAvantage/iconreactivite.png" class="iconeAvantage" /> 
+                <h6 class="titreAvantage"> 
+                    <span>✓&nbsp;</span>RÉACTIVITÉ 
+                </h6> 
+                <p class="texteAvantage"> 
+                    Réponses immédiates garantis,<br />devis sous 24h 
+                </p> 
+            </div> 
+            <div class="avantage  animated fadein delay4 duration10 eds-on-scroll "> 
+                <img src="/../images/IconeAvantage/iconcompetitivite.png" class="iconeAvantage" /> 
+                <h6 class="titreAvantage"> 
+                    <span>✓&nbsp;</span>COMPETITIVITÉ 
+                </h6> 
+                <p class="texteAvantage"> 
+                    Maîtrise des coûts = des tarifs avantageux sans négliger la qualité des intervenants 
+                </p> 
+            </div> 
+        </div> 
+    </div> 
+</div> 
+</div></div></section>
+            </div>
+            
+                        <div class="tm-block ">
+                <div class="tm-middle uk-grid" data-uk-grid-match data-uk-grid-margin>
+
+                                        <div class="tm-main uk-width-medium-1-1">
+
+                        
+                                                <main class="tm-content">
+
+                            
+                            
+
+
+<article class="uk-article" >
+
+	
+	
+		
+		
+	
+	
+	
+		<div>
+		
+ 	</div>
+	
+	
+	
+	
+	
+	
+	
+</article>
+
+							<div style="position: absolute; top: 0px; left: -3333px;">Sky Vegas review <a target="_blank" href="http://bettingy.com/sky-poker">bettingy.com/sky-vegas-casino</a> read at bettingy.com</div>                        </main>
+                        
+                        
+                    </div>
+                    
+                                                            
+                </div>
+            </div>
+            
+            
+                        <div class="tm-block ">
+                <section class="tm-bottom-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><div class="uk-width-1-1">
+	<div class="uk-panel">
+<div class="ic_marquee" id="myimgscrawler-1">
+	<img src="/images/ImagePartenaire/RmSystem.png" alt="RmSystem.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/axa assurance.png" alt="axa assurance.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/walter sas.png" alt="walter sas.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/afdas.png" alt="afdas.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/fenwick.png" alt="fenwick.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/electrifil.png" alt="electrifil.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/immofrance.png" alt="immofrance.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/stralang.png" alt="stralang.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/effervescence.png" alt="effervescence.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/celegrand.png" alt="celegrand.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/msa.png" alt="msa.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/slycma.png" alt="slycma.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/sanofi.png" alt="sanofi.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/agefos.png" alt="agefos.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/constructys.png" alt="constructys.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/bureauveritas.png" alt="bureauveritas.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/lachambre.png" alt="lachambre.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/suprasa.png" alt="suprasa.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/emcofrance.png" alt="emcofrance.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/gts.png" alt="gts.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/visa.png" alt="visa.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/admr.png" alt="admr.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/uniformation.png" alt="uniformation.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/SSID.png" alt="SSID.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/universitepopulaire.png" alt="universitepopulaire.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/polygard.png" alt="polygard.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/lidle.png" alt="lidle.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/stradal.png" alt="stradal.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/cemfo.png" alt="cemfo.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/renault.png" alt="renault.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/ibis.png" alt="ibis.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/comptalia.png" alt="comptalia.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/regionalsace.png" alt="regionalsace.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/pacelor.png" alt="pacelor.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/walter technologie.png" alt="walter technologie.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/vandelbucke.png" alt="vandelbucke.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/opca.png" alt="opca.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/wolflingerie.png" alt="wolflingerie.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/manpower.png" alt="manpower.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/adeos.png" alt="adeos.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/junglogistique.png" alt="junglogistique.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/cmf consulting.png" alt="cmf consulting.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/casino.png" alt="casino.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/ntl.png" alt="ntl.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/gmf.png" alt="gmf.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/sdez.png" alt="sdez.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/letrefle.png" alt="letrefle.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/etai.png" alt="etai.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/msd.png" alt="msd.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/ordreexpertcomptable.png" alt="ordreexpertcomptable.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/adele.png" alt="adele.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/Kuehnenagel.png" alt="Kuehnenagel.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /><img src="/images/ImagePartenaire/ikea.png" alt="ikea.png" style="vertical-align:middle;margin-right:1px" width="220" height="171" /></div>
+</div></div></section>
+            </div>
+            
+                        <div class="tm-block ">
+                <footer class="tm-footer">
+
+                    <div class="uk-panel">
+	 
+<style> 
+  
+ 
+@font-face { 
+    font-family:'Lato'; 
+    src:url('http://straformation.fr/lesformations/Lato-Regular.ttf') format('truetype'); 
+} 
+ 
+@font-face { 
+    font-family:'Futura'; 
+    src: url('http://straformation.fr/coursdelangue/futura-book.ttf') format('truetype'); 
+} 
+ 
+h1, h2, h3, h4, h5, h6, p, li { 
+    font-family: Futura, Lato, OpenSans, Helvetica, Arial, sans-serif !important; 
+} 
+  
+hr{ 
+    height:1px; 
+    color:lightgrey; 
+    background-color:lightgrey; 
+    clear:both; 
+} 
+ 
+.contactfooter td { 
+    font-size:12px; 
+} 
+ 
+.newfont{ 
+    display:inline-block !important; 
+    font-size: 12px; 
+    color : #665F5F; 
+    font-family: Futura, Lato, OpenSans, Helvetica, Arial, sans-serif !important; 
+} 
+ .tablecontact{ 
+     width:60%; 
+     padding-left:35px; 
+     font-size: 12px; 
+    color : #665F5F; 
+    display:inline-block; 
+      
+ } 
+ .reseaux{ 
+     padding-top:0; 
+     padding-bottom:0; 
+ } 
+.contactfooter table{ 
+    display:inline-block; 
+ } 
+.clauses { 
+    text-align: left; 
+    font-size: 12px; 
+    color : #665F5F; 
+    padding-left:35px; 
+    clear:both; 
+    display:block; 
+} 
+ 
+ul { 
+    list-style:none; 
+} 
+ 
+.clauseslist { 
+    line-height: .9; 
+    padding-right: 12px; 
+    margin-bottom: 10px; 
+    margin-right: 12px; 
+    display: inline-block; 
+    color : #665F5F; 
+    text-align:left; 
+    font-family: Futura, Lato, OpenSans, Helvetica, Arial, sans-serif !important; 
+} 
+ 
+.traitimgfooter { 
+    border-right: 1px solid #b2b2b2; 
+} 
+ 
+.logo { 
+    display:inline-block; 
+    width:15%; 
+    padding-right : 5px; 
+    margin-top:10px; 
+    margin-right:10px; 
+     margin-bottom:15px; 
+} 
+ 
+.traitimg{ 
+    width:75%; 
+    margin-top:10px; 
+    margin-bottom:15px; 
+    margin-left:35px; 
+    margin-right:40px; 
+    display:inline-block; 
+    clear:both; 
+} 
+ 
+.sociaux { 
+    float:right; 
+    margin-right:50px; 
+} 
+ 
+.reseaux { 
+    color:#665F5F; 
+} 
+ 
+.copy > p { 
+    color:#665F5F; 
+    font-size:10px; 
+    margin-left:40px; 
+} 
+ 
+.logoresp { 
+    display:none; 
+} 
+ 
+.contactresp{ 
+    display:none; 
+} 
+ 
+.reseaux td{ 
+    padding-left:10px; 
+    paddingright:10px; 
+} 
+ 
+@media all and (max-width : 1020px) { 
+ 
+     .logo { 
+         display: none !important; 
+     } 
+     
+    .logoresp { 
+        display:block; 
+        width:150px; 
+        margin : 0 auto; 
+        margin-bottom:10px; 
+    } 
+     
+    .resp { 
+        width:100%; 
+        margin:0 auto; 
+    } 
+    .tablecontact{ 
+        display:block; 
+    } 
+    .sociaux { 
+        float : none; 
+        width:25%; 
+        margin : auto;        
+    } 
+    .traitimg{ 
+        width:100%; 
+        margin-left:0px; 
+        margin-right:0; 
+        } 
+    .contactfooter { 
+        margin-left:0; 
+    } 
+    .reseaux{ 
+        margin-left:0; 
+        margin-right:0; 
+    } 
+    .clauses{ 
+        padding-left:5px; 
+        text-align:center; 
+    } 
+    .contactfooter { 
+        margin-left:0; 
+    } 
+    .tablecontact { 
+        margin:auto; 
+    } 
+    .reseaux{ 
+        width:auto; 
+        display:inline-block !important; 
+        text-align:center; 
+/*         margin-left:33%; */ 
+    } 
+     .contactfooter li{ 
+         border:none; 
+     } 
+/*     .reseaux{ */ 
+/*         width:70%;  */ 
+/*     } */ 
+    .logoresp 
+} 
+ 
+@media all and (max-width : 715px) { 
+    .sociaux{     
+        clear:both; 
+        width:40%; 
+    } 
+    .uk-icon-map-marker:before { 
+    content: ""; 
+    } 
+    .contactresp li{ 
+        width:auto; 
+        text-align:center; 
+    } 
+    .contactresp{ 
+        margin:auto; 
+        width:auto; 
+        display:block; 
+        margin-left:0; 
+        padding-left:0; 
+    } 
+    .tablecontact{ 
+        display:none; 
+    }     
+    .copy > p { 
+        margin-left:0; 
+        text-align:center; 
+    } 
+/*     .reseaux{ */ 
+/*         margin-left:30%; */ 
+/*     } */ 
+     
+     
+}     
+@media all and (max-width : 430px) { 
+    .sociaux{ 
+        width:60%; 
+    } 
+} 
+</style> 
+ 
+<hr> 
+ 
+<ul class="clauses"> 
+    <li class="clauseslist traitimgfooter"><a href="http://www.straformation.fr/contact/mentions-legales.html">Mentions légales</a></li> 
+    <li class="clauseslist traitimgfooter"><a href=http://www.straformation.fr/contact/contact-sous-menu.html>Contact</a></li> 
+    <li class="clauseslist traitimgfooter"><a href="http://www.straformation.fr/contact/recrutement.html">Recrutement</a></li> 
+</ul> 
+<div> 
+    <img class="traitimg" src="/images/ligneqqm.png"/> 
+    <img class="logo" src="/images/IconeSocial/straformationNoirLogo.png" /> 
+</div> 
+<img class="logoresp" src="/images/IconeSocial/straformationNoirLogo.png" /> 
+ 
+<div class="contactfooter"> 
+    <ul class="tablecontact" > 
+        <li class="clauseslist traitimgfooter"> 
+            <i class="uk-icon-map-marker">&nbsp;</i> 
+            <a href="http://straformation.fr/contact/contact-sous-menu.html">21 rue d'Oslo 67000 STRASBOURG</a>             
+        </li> 
+        <li class="clauseslist traitimgfooter"> 
+            <i class="uk-icon-clock-o">&nbsp;</i> 
+            Lun-Sam : 9h-19h 
+        </li> 
+        <li class="clauseslist traitimgfooter"> 
+            <i class="uk-icon-envelope">&nbsp;</i> 
+            <a href="mailto:contact@straformation.fr">contact@straformation.fr</a>             
+        </li> 
+
+ 
+        <li class="clauseslist"> 
+            <i class="uk-icon-phone">&nbsp;</i> 
+            09 81 22 79 07 
+        </li> 
+    </ul> 
+    <ul class="contactresp clauses"> 
+        <li><a class="newfont" href="http://straformation.fr/contact/contact-sous-menu.html">&nbsp; 21 rue d'Oslo 67000 STRASBOURG</a></li> 
+        <li><a class="newfont" href="mailto:contact@straformation.fr">contact@straformation.fr</a></li> 
+        <li> <span class="newfont">&nbsp; Lun-Sam : 9h-19h</span></li>         
+         <li><span class="newfont">&nbsp;<a href="tel:+33981227907> 09 81 22 79 07</a></span></li> 
+     </ul> 
+    <div class="sociaux"> 
+        <table class="reseaux" > 
+            <tr> 
+                <td> 
+                    <a href="https://www.facebook.com/stra.formation"> 
+                        <img src="/images/IconeSocial/facebook.jpg" onmouseout="this.src='/images/IconeSocial/facebook.jpg'" onmouseover="this.src='/images/IconeSocial/facebook1.jpg'" /> 
+                    </a> 
+                </td> 
+                <td> 
+                    <a href="https://fr.linkedin.com/pub/stra-formation/49/1a8/ba6"> 
+                        <img src="/images/IconeSocial/linkedin.jpg" onmouseout="this.src='/images/IconeSocial/linkedin.jpg'" onmouseover="this.src='/images/IconeSocial/linkedin1.jpg'"/> 
+                    </a> 
+                </td> 
+                <td> 
+                    <a href="https://plus.google.com/111439520695035731648/posts" > 
+                        <img  src="/images/IconeSocial/google+.jpg" onmouseout="this.src='/images/IconeSocial/google+.jpg'" onmouseover="this.src='/images/IconeSocial/google+1.jpg'" /> 
+                    </a> 
+                </td> 
+                <td> 
+                    <a href="http://fr.viadeo.com/fr/company/straformation" > 
+                        <img class="viadeohover" src="/images/IconeSocial/viadeo.jpg" onmouseout="this.src='/images/IconeSocial/viadeo.jpg'" onmouseover="this.src='/images/IconeSocial/viadeo1.jpg'"  /> 
+                    </a> 
+                </td> 
+               </tr> 
+        </table> 
+    </div> 
+</div> 
+<hr> 
+ 
+<div class="copy"> 
+    <p > 
+        ©2015 Straformation, Copyright 
+    </p> 
+</div> 
+</div>
+                                        <a class="tm-totop-scroller" data-uk-smooth-scroll href="#"></a>
+                    
+                </footer>
+            </div>
+            
+            <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52308033-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+                        <div id="offcanvas" class="uk-offcanvas">
+                <div class="uk-offcanvas-bar uk-offcanvas-bar-flip"><div class="uk-panel">
+<div id="je_accord210" class="je_acc ">
+
+<ul >
+<li class="item-101 current active"><a href="/" >Accueil</a></li><li class="item-108 has-sub parent"><a href="/?Itemid=108" >Nos formations</a><ul><li class="item-153"><a href="/nos-formations/les-formations.html" >Les formations</a></li><li class="item-116"><a href="/nos-formations/co-formation.html" >Co-Formation</a></li><li class="item-144"><a href="/nos-formations/offre-449.html" >Offre 449</a></li></ul></li><li class="item-118"><a href="/cours-de-langue.html" >Cours de langues</a></li><li class="item-117 has-sub parent"><a href="/?Itemid=117" >Soutien Scolaire</a><ul><li class="item-146"><a href="/soutien-scolaire/soutien-scolaire.html" >Soutien scolaire</a></li><li class="item-139"><a href="/soutien-scolaire/aide-aux-devoirs.html" >Aide aux devoirs (Collèges)</a></li><li class="item-140"><a href="/soutien-scolaire/cours-particuliers.html" >Cours particuliers</a></li><li class="item-141"><a href="/soutien-scolaire/preparation-aux-examens.html" >Préparation aux examens</a></li></ul></li><li class="item-119"><a href="/location-de-salles.html" >Location de salles</a></li><li class="item-122"><a href="/traduction.html" >Traduction</a></li><li class="item-121"><a href="/devenir-formateur.html" >Devenir Formateur</a></li><li class="item-123 has-sub parent"><a href="/?Itemid=123" >Le Centre</a><ul><li class="item-148"><a href="/contact/contact-sous-menu.html" >Contact</a></li><li class="item-145"><a href="/contact/qui-sommes-nous.html" >Qui sommes-nous?</a></li><li class="item-187"><a href="/contact/reinventons-la-formation.html" >Réinventons la formation</a></li><li class="item-188"><a href="/contact/formateur.html" >Choix du formateur</a></li><li class="item-174"><a href="/contact/sponsors.html" >Nos Références</a></li><li class="item-154"><a href="/contact/recrutement.html" >Recrutement</a></li><li class="item-152"><a href="/contact/mentions-legales.html" >Mentions légales</a></li><li class="item-155"><a href="/contact/argumenter-avec-soncas-et-cap.html" >SONCAS / CAP</a></li></ul></li></ul>
+</div>
+<a href="http://jextensions.com/free-accordion-menu-joomla-2.5/" id="jExt210">accordion menu joomla</a>
+<script type="text/javascript">
+  var el = document.getElementById('jExt210');
+  if(el) {el.style.display += el.style.display = 'none';}
+</script>
+</div></div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

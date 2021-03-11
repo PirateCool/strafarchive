@@ -1,0 +1,54 @@
+/*----------------------------------------------*/
+/*	Load
+/*---------------------------------------------*/	
+jQuery(document).ready(function() {
+	/*----------------------------------------------*/
+	/*	Tipsy
+	/*---------------------------------------------*/	
+	jQuery('.social-icons').tipsy({fade: true});
+	
+	
+
+	// Quand on clique sur un h2 d'un menu -> slideToggle :
+	jQuery("#content-body .block-menu").find("h2").click(function () {
+		jQuery(this).parent().find(".content").slideToggle(500);
+	});
+	
+	// Pour cacher l'infobulle, je renomme l'attribut "title" par "image".
+	jQuery('#main-menu a.[title]').each(function() {
+		var s = jQuery(this);
+		s
+			.attr({
+				image : s.attr('title'),
+			})
+			.removeAttr('title')
+		;
+	});
+	jQuery('#sidebar-first a.[title]').each(function() {
+		var s = jQuery(this);
+		s
+			.attr({
+				image : s.attr('title'),
+			})
+			.removeAttr('title')
+		;
+	});
+	jQuery('#sidebar-second a.[title]').each(function() {
+		var s = jQuery(this);
+		s
+			.attr({
+				image : s.attr('title'),
+			})
+			.removeAttr('title')
+		;
+	});
+	// Slider d' "highlighted" :
+	jQuery('#slider').nivoSlider({
+		effect: 'random',
+		pauseTime: 4000,
+		directionNav: false,
+		controlNav: false
+	});
+
+});
+

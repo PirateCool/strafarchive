@@ -1,0 +1,58 @@
+jQuery(function ($) {
+    $("form.cart").on("change", "input.qty", function() {
+        if (this.value === "0") { this.value = "1"; }
+        $(this.form).find("button[data-quantity]").data("quantity", this.value);
+    });
+    $(document.body).on("adding_to_cart", function() { $("a.added_to_cart").remove(); });      
+});
+
+
+jQuery(document).ready(function(){
+    if(jQuery("#sticky").width()<600) { jQuery("#mega-menu-primary").hide(); }
+    jQuery("#mega-toggle-block-2").click(function(toggle){
+        if(jQuery("#sticky").width()<600) { jQuery("#mega-menu-primary").animate({width:'toggle'},250); } else { jQuery("#mega-menu-primary").show(); }
+    });
+    ///
+    jQuery("#add_cart_sticky").hide();
+    if(jQuery("#sticky").width()<600) { jQuery("#add_cart_sticky").animate({height:'toggle'},750); }
+});
+
+jQuery(function ($) {
+	if ( $( "#mega-menu-wrap-primary" ).length ) {
+
+    var width=jQuery("#sticky").width();
+    window.onscroll = function() {myFunction()};
+    var header = document.getElementById("sticky");
+    var sticky=$("#mega-menu-wrap-primary").offset().top;
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        header.classList.add("sticky2");
+        $("#sticky").width(width);
+        /**$(".mega-menu-link").each(function( index ) { $(this).css('height',"60px"); });
+        $(".mega-menu-link").each(function( index ) { $(this).css('line-height',"60px"); });**/
+        $("#mega-menu-primary").css('margin-top',"0px");
+      } else {
+        header.classList.remove("sticky2");
+        /**$(".mega-menu-link").each(function( index ) { $(this).css('height',"60px"); });
+        $(".mega-menu-link").each(function( index ) { $(this).css('line-height',"60px"); });**/
+        //$("#mega-menu-primary").css('margin-top',"60px");
+        $("#mega-menu-primary").css('margin-top',"0px");
+      }
+    }
+
+	}       
+});
+
+jQuery(function ($) {
+try {
+jQuery('[data-toggle="tooltip"]').tooltip({animation: true,delay: {show: 1000, hide: 100},html:true,placement:"bottom"});
+    if(jQuery("#sticky").width()<600) {  jQuery('[data-toggle="tooltip"]').tooltip('disable'); }
+} catch(error) {
+  console.error(error);
+  // expected output: SyntaxError: unterminated string literal
+  // Note - error messages will vary depending on browser
+}
+   
+});
+
+

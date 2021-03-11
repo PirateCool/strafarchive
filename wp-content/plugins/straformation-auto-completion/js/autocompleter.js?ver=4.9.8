@@ -1,0 +1,22 @@
+function listeautocompleter(input)
+{
+	var xhr = jQuery.ajax({
+		url: kodex_js.ajaxurl,
+		method: 'post',
+		data: {
+			action: 'kodex_ajax_action',
+			//search: jQuery('#'+id).val()
+			search: jQuery(input).val()
+		},
+		success: function(response){
+			completions = JSON.parse(response);
+
+			//jQuery('#'+id).autocomplete({
+			jQuery(input).autocomplete({
+
+				source : completions, 
+				minLength : 1,
+			});
+		}
+	});
+};

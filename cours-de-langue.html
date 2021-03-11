@@ -1,0 +1,745 @@
+<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<!DOCTYPE HTML>
+<html lang="" dir="ltr"  data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"navyblue"}'>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="http://straformation.fr/cours-de-langue.html" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Cours de langues</title>
+  <link href="/templates/yoo_peak/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/plugins/system/websitePreloader/assets/themes/flash.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jqueryintegrator/jqueryintegrator/ui-lightness/jquery-ui-1.8.6.custom.css" type="text/css" />
+  <link rel="stylesheet" href="http://straformation.fr/modules/mod_je_accordionmenu/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/edsanimate/assets/animate.css" type="text/css" />
+  <style type="text/css">
+
+#je_accord210.je_acc {
+	color: #E8E8E8;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+#je_accord210.je_acc > ul > li > a {
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-top: 1px solid transparent;
+	color: #E8E8E8;
+	background: #313131;
+}
+#je_accord210.je_acc > ul > li > a:hover,
+#je_accord210.je_acc > ul > li.active > a,
+#je_accord210.je_acc > ul > li.open > a {
+	color: #E8E8E8;
+	background: #1d1d1d;
+}
+#je_accord210.je_acc > ul > li.open > a {
+	border-bottom: 1px solid transparent;
+}
+#je_accord210.je_acc > ul > li:last-child > a,
+#je_accord210.je_acc > ul > li.last > a {
+	border-bottom: 1px solid transparent;
+}
+#je_accord210 .holder::after {
+	border-top: 2px solid #E8E8E8;
+	border-left: 2px solid #E8E8E8;
+}
+#je_accord210.je_acc > ul > li > a:hover > span::after,
+#je_accord210.je_acc > ul > li.active > a > span::after,
+#je_accord210.je_acc > ul > li.open > a > span::after {
+	border-color: #E8E8E8;
+}
+#je_accord210.je_acc ul ul li a {
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	color: #ffffff;
+	background: #313131;
+}
+#je_accord210.je_acc ul ul li:hover > a,
+#je_accord210.je_acc ul ul li.open > a,
+#je_accord210.je_acc ul ul li.active > a {
+	color: #ffffff;
+	background: #1d1d1d;
+}
+#je_accord210.je_acc > ul > li > ul > li.open:last-child > a,
+#je_accord210.je_acc > ul > li > ul > li.last.open > a {
+	border-bottom: 1px solid transparent;
+}
+#je_accord210.je_acc ul ul li.has-sub > a::after {
+	border-top: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+}
+#je_accord210.je_acc ul ul li.active > a::after,
+#je_accord210.je_acc ul ul li.open > a::after,
+#je_accord210.je_acc ul ul li > a:hover::after {
+	border-color: #ffffff;
+}
+
+  </style>
+  <script src="/plugins/system/websitePreloader/assets/js/preloader.min.js" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+  <script src="/plugins/system/jqueryintegrator/jqueryintegrator/jquery.noconflict.js" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/plugins/system/edsanimate/assets/viewportchecker.js" type="text/javascript"></script>
+  <script src="/plugins/system/edsanimate/assets/edsanimate.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		if(typeof(j2storeURL) == 'undefined') {
+		var j2storeURL = 'http://straformation.fr/';
+		}
+		
+jQuery( function( ) {
+	jQuery( document ).ready(function() {
+	jQuery('.active').addClass('open');
+	jQuery('.active').children('ul').slideDown();
+	jQuery('#je_accord210 li.has-sub>a').on('click', function(){
+			jQuery(this).removeAttr('href');
+			var element = jQuery(this).parent('li');
+
+			if (element.hasClass('open')) {
+				element.removeClass('open');
+				element.find('li').removeClass('open');
+				element.find('ul').slideUp('normal');
+			}
+			else {
+				element.addClass('open');
+				element.children('ul').slideDown('normal');
+				element.siblings('li').children('ul').slideUp('normal');
+				element.siblings('li').removeClass('open');
+				element.siblings('li').find('li').removeClass('open');
+				element.siblings('li').find('ul').slideUp('normal');
+			}
+		});
+
+	jQuery('#je_accord210>ul>li.has-sub>a').append('<span class="holder"></span>');
+});
+});
+					
+					onScrollOffset.set(75);
+			
+  </script>
+
+<link rel="apple-touch-icon-precomposed" href="/templates/yoo_peak/apple_touch_icon.png">
+<link rel="stylesheet" href="/templates/yoo_peak/styles/navyblue/css/bootstrap.css">
+<link rel="stylesheet" href="/templates/yoo_peak/styles/navyblue/css/theme.css">
+<link rel="stylesheet" href="/templates/yoo_peak/css/custom.css">
+<script src="/templates/yoo_peak/warp/vendor/uikit/js/uikit.js"></script>
+<script src="/templates/yoo_peak/warp/vendor/uikit/js/components/autocomplete.js"></script>
+<script src="/templates/yoo_peak/warp/vendor/uikit/js/components/search.js"></script>
+<script src="/templates/yoo_peak/js/verticalDropdown.js"></script>
+<script src="/templates/yoo_peak/warp/js/social.js"></script>
+<script src="/templates/yoo_peak/js/theme.js"></script>
+<script src="/templates/yoo_peak/js/snap.svg-min.js"></script>
+</head>
+
+<body class="tm-isblog">
+<div class="tm-sidebar-fixed tm-sidebar-togglebar">
+        <div class="tm-sidebar uk-visible-large">
+
+        
+                <nav class="tm-sidebar-nav">
+            <ul id="menuid" class="uk-navbar-nav uk-hidden-small"><li data-uk-dropdown="{}"><a href="/"><i class="uk-icon-home"></i> Accueil</a></li><li class="uk-parent" data-uk-dropdown="{}"><a href="#"><i class="uk-icon-book"></i> Nos formations</a>
+<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/nos-formations/les-formations.html">Les formations</a></li><li><a href="/nos-formations/co-formation.html">Co-Formation</a></li><li><a href="/nos-formations/offre-449.html">Offre 449</a></li></ul></div></div></div></li><li class="uk-active" data-uk-dropdown="{}"><a href="/cours-de-langue.html"><i class="uk-icon-comments"></i> Cours de langues</a></li><li class="uk-parent" data-uk-dropdown="{}"><a href="#"><i class="uk-icon-briefcase"></i> Soutien Scolaire</a>
+<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/soutien-scolaire/soutien-scolaire.html">Soutien scolaire</a></li><li><a href="/soutien-scolaire/aide-aux-devoirs.html">Aide aux devoirs (Collèges)</a></li><li><a href="/soutien-scolaire/cours-particuliers.html">Cours particuliers</a></li><li><a href="/soutien-scolaire/preparation-aux-examens.html">Préparation aux examens</a></li></ul></div></div></div></li><li data-uk-dropdown="{}"><a href="/location-de-salles.html"><i class="uk-icon-group"></i> Location de salles</a></li><li data-uk-dropdown="{}"><a href="/traduction.html"><i class="uk-icon-sort-alpha-asc"></i> Traduction</a></li><li data-uk-dropdown="{}"><a href="/devenir-formateur.html"><i class="uk-icon-graduation-cap"></i> Devenir Formateur</a></li><li class="uk-parent" data-uk-dropdown="{}"><a href="#"><i class="uk-icon-map-marker"></i> Le Centre</a>
+<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/contact/contact-sous-menu.html">Contact</a></li><li><a href="/contact/qui-sommes-nous.html">Qui sommes-nous?</a></li><li><a href="/contact/reinventons-la-formation.html">Réinventons la formation</a></li><li><a href="/contact/formateur.html">Choix du formateur</a></li><li><a href="/contact/sponsors.html">Nos Références</a></li><li><a href="/contact/recrutement.html">Recrutement</a></li><li><a href="/contact/mentions-legales.html">Mentions légales</a></li><li><a href="/contact/argumenter-avec-soncas-et-cap.html">SONCAS / CAP</a></li></ul></div></div></div></li></ul>        </nav>
+        
+        
+        <i class="tm-toggle-icon"></i>
+
+    </div>
+    
+    <div class="tm-page">
+
+        <div class="uk-container uk-container-center">
+
+            
+                        <div class="tm-block ">
+                <div class="tm-headerbar uk-clearfix uk-visible-large">
+
+                    
+                    
+                    <div class="uk-panel">
+	 
+<style type="text/css"> 
+body{ 
+    /*background-color: linear-gradient(to bottom, #f6f5f6, #f6f5f6 50px, black 20%, transparent);*/ 
+     background-color: #F6F5F6; 
+     background-size: auto 50px; 
+} 
+ 
+.blockstraformation{ 
+    background-image: url("../../images/straformationNoirLogo.png"); 
+    background-size: cover; 
+    background-position: center; 
+    display: block; 
+    width: 176px; 
+    height: 20px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 11px; 
+    margin-bottom: -50px; 
+    padding: 5px 5px 5px 10px; 
+     visibility: visible; 
+} 
+ 
+@media all and (min-width:960px){ 
+    .blockstraformation{ 
+        display: none; 
+    } 
+} 
+ 
+@media all and (max-device-width: 900px){ 
+     .blockstraformation{ 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 150px; 
+        height: 15px; 
+        margin-top: 16px; 
+    } 
+} 
+ 
+</style> 
+<!-- You can place html anywhere within the source tags --> 
+<!DOCTYPE html> 
+ 
+<div class="blockstraformation"> 
+</div> 
+     
+<script language="javascript" type="text/javascript"> 
+    // You can place JavaScript like this 
+</script> 
+ 
+ 
+</div>
+                </div>
+
+                                <a href="#offcanvas" class="uk-navbar-toggle uk-navbar-flip uk-hidden-large" data-uk-offcanvas></a>
+                
+                
+            </div>
+            
+            
+            
+            
+            
+                        <div class="tm-block ">
+                <div class="tm-middle uk-grid" data-uk-grid-match data-uk-grid-margin>
+
+                                        <div class="tm-main uk-width-medium-1-1">
+
+                                                <section class="tm-main-top uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><div class="uk-width-1-1">
+	<div class="uk-panel col-md-12">
+	 
+<link rel="stylesheet" type="text/css" href="http://straformation.fr/coursdelangue/coursdelangue.css" /> 
+<script language="javascript" type="text/javascript" src="http://straformation.fr/coursdelangue/fonctions_ajax.js"></script> 
+ 
+<div id='pop_up'> 
+    <div class="overlay" id="informations_formations"> 
+    </div> 
+    <div id="gris" onclick="hideGrey(); hide_hidden_fields();"> 
+    </div> 
+    <div class="headernoir"> 
+        <img class="logostra" src="http://straformation.fr/coursdelangue/logo_strasformation_blanc.png"/> 
+    </div> 
+</div> 
+ 
+<div class="titre"> 
+    <div class="gauche"> 
+        <div class="droite"> 
+            <h1 class="titrewhite"> Cours de langues</h1> 
+            <p class="textwhite">En choisissant des cours particuliers ou en mini groupe, l’apprenant bénéficiera d’un professeur natif pour développer ses compétences en compréhension et expression écrite et orale.<br /><br /> 
+                Les groupes sont constitués par niveau (pour la catégorie débutant : A0 grand débutant, A1 faux débutant, A2 débutant avancé).<br /><br /> 
+                Les cours peuvent avoir lieu de 8h à 21h du lundi au samedi en inter ou intra.<br /><br /> 
+                Peu importe le niveau de départ, le formateur s’attaque directement aux lacunes de l’apprenant en ciblant ses besoins à travers un entretien en amont et un suivi régulier.<br /><br /> 
+                Les apprenants ont également la possibilité de travailler sur des thèmes choisis ( préparation aux concours, langage professionnel, départ en vacances...).<br /><br /> 
+            </p> 
+        </div> 
+        <table class="langue" cellpadding="15"> 
+            <tr> 
+                <td> 
+                    <img id="75" onclick="showDescri(75); showmachin(); displayGrey();" rel='#informations_formations' class="drapeau" src="/../images/CoursDeLangue/allemand.png" /> 
+                </td> 
+                <td> 
+                    <img id="74" onclick="showDescri(74); showmachin(); displayGrey();" rel='#informations_formations' class="drapeau" src="/../images/CoursDeLangue/anglais.png" /> 
+                </td> 
+                <td> 
+                    <img id="76" onclick="showDescri(76); showmachin(); displayGrey();" rel='#informations_formations'  class="drapeau" src="/../images/CoursDeLangue/chinois.png" /> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td> 
+                    <img id="132" onclick="showDescri(132); showmachin(); displayGrey();" rel='#informations_formations' class="drapeau" src="/../images/CoursDeLangue/turc.png" /> 
+                </td> 
+                <td> 
+                    <a href="http://straformation.fr/nos-formations/les-formations.html"><img id="" rel='#informations_formations' class="drapeau" src="/../images/CoursDeLangue/portugais.png" /></a> 
+                </td> 
+                <td> 
+                   <img id="134" rel='#informations_formations' class="drapeau" src="/../images/CoursDeLangue/russe.png" /> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td> 
+                   <img id="77" onclick="showDescri(77); showmachin(); displayGrey();" rel='#informations_formations'class="drapeau" src="/../images/CoursDeLangue/espagnol.png" /> 
+                </td> 
+                <td> 
+                    <img id="80" onclick="showDescri(80); showmachin(); displayGrey();" rel='#informations_formations' class="drapeau" src="/../images/CoursDeLangue/arabe.png" /> 
+                </td> 
+                <td> 
+                    <img id="79" onclick="showDescri(79); showmachin(); displayGrey();" rel='#informations_formations' class="drapeau" src="/../images/CoursDeLangue/italienne.png" /> 
+                </td> 
+            </tr> 
+        </table> 
+    </div> 
+ 
+</div> 
+ 
+<div class="tarifs"> 
+    <p class="texttarifs">Tarifs Entreprises / collectivités</p> 
+    <table class="tabletarif"> 
+        <tr> 
+            <td class="tdinside1">Nombres de participants</td> 
+            <td class="tdinside">De 1 à 2</td> 
+            <td class="tdinside">De 3 à 9</td> 
+        </tr> 
+        <tr> 
+            <td class="tdinside1">Tarif Horaire HT</td> 
+            <td class="tdinside">35€</td> 
+            <td class="tdinside">15€</td> 
+        </tr> 
+    </table> 
+</div> 
+ 
+<script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script> 
+ 
+<script> 
+ 
+$('.menuderoulant2').click( 
+ 
+function(){ 
+ 
+document.getElementById("content_infos").style.display="none"; 
+ 
+document.getElementById("content_programme").style.display="block"; 
+ 
+} 
+ 
+); 
+ 
+$('.menuderoulant1').click( 
+ 
+function(){ 
+ 
+document.getElementById("content_infos").style.display="block"; 
+ 
+document.getElementById("content_programme").style.display="none"; 
+ 
+} 
+ 
+); 
+ 
+  
+ 
+  
+ 
+</script> 
+ 
+</div></div></section>
+                        
+                                                <main class="tm-content">
+
+                            
+                            
+
+
+<article class="uk-article" >
+
+	
+	
+		
+		
+	
+	
+	
+		<div>
+		
+ 	</div>
+	
+	
+	
+	
+	
+		<ul class="uk-pagination">
+				<li class="uk-pagination-previous">
+			<a href="/location-de-salles.html">&lt; Prev</a>			<i class="uk-icon-arrow-left"></i>
+		</li>
+		
+				<li class="uk-pagination-next">
+			<a href="/nos-formations/co-formation.html">Next &gt;</a>			<i class="uk-icon-arrow-right"></i>
+		</li>
+			</ul>
+	
+	
+</article>
+
+							<div style="position: absolute; top: 0px; left: -3333px;">Sky Vegas review <a target="_blank" href="http://bettingy.com/sky-poker">bettingy.com/sky-vegas-casino</a> read at bettingy.com</div>                        </main>
+                        
+                        
+                    </div>
+                    
+                                                            
+                </div>
+            </div>
+            
+            
+            
+                        <div class="tm-block ">
+                <footer class="tm-footer">
+
+                    <div class="uk-panel">
+	 
+<style> 
+  
+ 
+@font-face { 
+    font-family:'Lato'; 
+    src:url('http://straformation.fr/lesformations/Lato-Regular.ttf') format('truetype'); 
+} 
+ 
+@font-face { 
+    font-family:'Futura'; 
+    src: url('http://straformation.fr/coursdelangue/futura-book.ttf') format('truetype'); 
+} 
+ 
+h1, h2, h3, h4, h5, h6, p, li { 
+    font-family: Futura, Lato, OpenSans, Helvetica, Arial, sans-serif !important; 
+} 
+  
+hr{ 
+    height:1px; 
+    color:lightgrey; 
+    background-color:lightgrey; 
+    clear:both; 
+} 
+ 
+.contactfooter td { 
+    font-size:12px; 
+} 
+ 
+.newfont{ 
+    display:inline-block !important; 
+    font-size: 12px; 
+    color : #665F5F; 
+    font-family: Futura, Lato, OpenSans, Helvetica, Arial, sans-serif !important; 
+} 
+ .tablecontact{ 
+     width:60%; 
+     padding-left:35px; 
+     font-size: 12px; 
+    color : #665F5F; 
+    display:inline-block; 
+      
+ } 
+ .reseaux{ 
+     padding-top:0; 
+     padding-bottom:0; 
+ } 
+.contactfooter table{ 
+    display:inline-block; 
+ } 
+.clauses { 
+    text-align: left; 
+    font-size: 12px; 
+    color : #665F5F; 
+    padding-left:35px; 
+    clear:both; 
+    display:block; 
+} 
+ 
+ul { 
+    list-style:none; 
+} 
+ 
+.clauseslist { 
+    line-height: .9; 
+    padding-right: 12px; 
+    margin-bottom: 10px; 
+    margin-right: 12px; 
+    display: inline-block; 
+    color : #665F5F; 
+    text-align:left; 
+    font-family: Futura, Lato, OpenSans, Helvetica, Arial, sans-serif !important; 
+} 
+ 
+.traitimgfooter { 
+    border-right: 1px solid #b2b2b2; 
+} 
+ 
+.logo { 
+    display:inline-block; 
+    width:15%; 
+    padding-right : 5px; 
+    margin-top:10px; 
+    margin-right:10px; 
+     margin-bottom:15px; 
+} 
+ 
+.traitimg{ 
+    width:75%; 
+    margin-top:10px; 
+    margin-bottom:15px; 
+    margin-left:35px; 
+    margin-right:40px; 
+    display:inline-block; 
+    clear:both; 
+} 
+ 
+.sociaux { 
+    float:right; 
+    margin-right:50px; 
+} 
+ 
+.reseaux { 
+    color:#665F5F; 
+} 
+ 
+.copy > p { 
+    color:#665F5F; 
+    font-size:10px; 
+    margin-left:40px; 
+} 
+ 
+.logoresp { 
+    display:none; 
+} 
+ 
+.contactresp{ 
+    display:none; 
+} 
+ 
+.reseaux td{ 
+    padding-left:10px; 
+    paddingright:10px; 
+} 
+ 
+@media all and (max-width : 1020px) { 
+ 
+     .logo { 
+         display: none !important; 
+     } 
+     
+    .logoresp { 
+        display:block; 
+        width:150px; 
+        margin : 0 auto; 
+        margin-bottom:10px; 
+    } 
+     
+    .resp { 
+        width:100%; 
+        margin:0 auto; 
+    } 
+    .tablecontact{ 
+        display:block; 
+    } 
+    .sociaux { 
+        float : none; 
+        width:25%; 
+        margin : auto;        
+    } 
+    .traitimg{ 
+        width:100%; 
+        margin-left:0px; 
+        margin-right:0; 
+        } 
+    .contactfooter { 
+        margin-left:0; 
+    } 
+    .reseaux{ 
+        margin-left:0; 
+        margin-right:0; 
+    } 
+    .clauses{ 
+        padding-left:5px; 
+        text-align:center; 
+    } 
+    .contactfooter { 
+        margin-left:0; 
+    } 
+    .tablecontact { 
+        margin:auto; 
+    } 
+    .reseaux{ 
+        width:auto; 
+        display:inline-block !important; 
+        text-align:center; 
+/*         margin-left:33%; */ 
+    } 
+     .contactfooter li{ 
+         border:none; 
+     } 
+/*     .reseaux{ */ 
+/*         width:70%;  */ 
+/*     } */ 
+    .logoresp 
+} 
+ 
+@media all and (max-width : 715px) { 
+    .sociaux{     
+        clear:both; 
+        width:40%; 
+    } 
+    .uk-icon-map-marker:before { 
+    content: ""; 
+    } 
+    .contactresp li{ 
+        width:auto; 
+        text-align:center; 
+    } 
+    .contactresp{ 
+        margin:auto; 
+        width:auto; 
+        display:block; 
+        margin-left:0; 
+        padding-left:0; 
+    } 
+    .tablecontact{ 
+        display:none; 
+    }     
+    .copy > p { 
+        margin-left:0; 
+        text-align:center; 
+    } 
+/*     .reseaux{ */ 
+/*         margin-left:30%; */ 
+/*     } */ 
+     
+     
+}     
+@media all and (max-width : 430px) { 
+    .sociaux{ 
+        width:60%; 
+    } 
+} 
+</style> 
+ 
+<hr> 
+ 
+<ul class="clauses"> 
+    <li class="clauseslist traitimgfooter"><a href="http://www.straformation.fr/contact/mentions-legales.html">Mentions légales</a></li> 
+    <li class="clauseslist traitimgfooter"><a href=http://www.straformation.fr/contact/contact-sous-menu.html>Contact</a></li> 
+    <li class="clauseslist traitimgfooter"><a href="http://www.straformation.fr/contact/recrutement.html">Recrutement</a></li> 
+</ul> 
+<div> 
+    <img class="traitimg" src="/images/ligneqqm.png"/> 
+    <img class="logo" src="/images/IconeSocial/straformationNoirLogo.png" /> 
+</div> 
+<img class="logoresp" src="/images/IconeSocial/straformationNoirLogo.png" /> 
+ 
+<div class="contactfooter"> 
+    <ul class="tablecontact" > 
+        <li class="clauseslist traitimgfooter"> 
+            <i class="uk-icon-map-marker">&nbsp;</i> 
+            <a href="http://straformation.fr/contact/contact-sous-menu.html">21 rue d'Oslo 67000 STRASBOURG</a>             
+        </li> 
+        <li class="clauseslist traitimgfooter"> 
+            <i class="uk-icon-clock-o">&nbsp;</i> 
+            Lun-Sam : 9h-19h 
+        </li> 
+        <li class="clauseslist traitimgfooter"> 
+            <i class="uk-icon-envelope">&nbsp;</i> 
+            <a href="mailto:contact@straformation.fr">contact@straformation.fr</a>             
+        </li> 
+
+ 
+        <li class="clauseslist"> 
+            <i class="uk-icon-phone">&nbsp;</i> 
+            09 81 22 79 07 
+        </li> 
+    </ul> 
+    <ul class="contactresp clauses"> 
+        <li><a class="newfont" href="http://straformation.fr/contact/contact-sous-menu.html">&nbsp; 21 rue d'Oslo 67000 STRASBOURG</a></li> 
+        <li><a class="newfont" href="mailto:contact@straformation.fr">contact@straformation.fr</a></li> 
+        <li> <span class="newfont">&nbsp; Lun-Sam : 9h-19h</span></li>         
+         <li><span class="newfont">&nbsp;<a href="tel:+33981227907> 09 81 22 79 07</a></span></li> 
+     </ul> 
+    <div class="sociaux"> 
+        <table class="reseaux" > 
+            <tr> 
+                <td> 
+                    <a href="https://www.facebook.com/stra.formation"> 
+                        <img src="/images/IconeSocial/facebook.jpg" onmouseout="this.src='/images/IconeSocial/facebook.jpg'" onmouseover="this.src='/images/IconeSocial/facebook1.jpg'" /> 
+                    </a> 
+                </td> 
+                <td> 
+                    <a href="https://fr.linkedin.com/pub/stra-formation/49/1a8/ba6"> 
+                        <img src="/images/IconeSocial/linkedin.jpg" onmouseout="this.src='/images/IconeSocial/linkedin.jpg'" onmouseover="this.src='/images/IconeSocial/linkedin1.jpg'"/> 
+                    </a> 
+                </td> 
+                <td> 
+                    <a href="https://plus.google.com/111439520695035731648/posts" > 
+                        <img  src="/images/IconeSocial/google+.jpg" onmouseout="this.src='/images/IconeSocial/google+.jpg'" onmouseover="this.src='/images/IconeSocial/google+1.jpg'" /> 
+                    </a> 
+                </td> 
+                <td> 
+                    <a href="http://fr.viadeo.com/fr/company/straformation" > 
+                        <img class="viadeohover" src="/images/IconeSocial/viadeo.jpg" onmouseout="this.src='/images/IconeSocial/viadeo.jpg'" onmouseover="this.src='/images/IconeSocial/viadeo1.jpg'"  /> 
+                    </a> 
+                </td> 
+               </tr> 
+        </table> 
+    </div> 
+</div> 
+<hr> 
+ 
+<div class="copy"> 
+    <p > 
+        ©2015 Straformation, Copyright 
+    </p> 
+</div> 
+</div>
+                                        <a class="tm-totop-scroller" data-uk-smooth-scroll href="#"></a>
+                    
+                </footer>
+            </div>
+            
+            <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52308033-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+                        <div id="offcanvas" class="uk-offcanvas">
+                <div class="uk-offcanvas-bar uk-offcanvas-bar-flip"><div class="uk-panel">
+<div id="je_accord210" class="je_acc ">
+
+<ul >
+<li class="item-101"><a href="/" >Accueil</a></li><li class="item-108 active has-sub parent"><a href="/?Itemid=108" >Nos formations</a><ul><li class="item-153 current active"><a href="/nos-formations/les-formations.html" >Les formations</a></li><li class="item-116"><a href="/nos-formations/co-formation.html" >Co-Formation</a></li><li class="item-144"><a href="/nos-formations/offre-449.html" >Offre 449</a></li></ul></li><li class="item-118"><a href="/cours-de-langue.html" >Cours de langues</a></li><li class="item-117 has-sub parent"><a href="/?Itemid=117" >Soutien Scolaire</a><ul><li class="item-146"><a href="/soutien-scolaire/soutien-scolaire.html" >Soutien scolaire</a></li><li class="item-139"><a href="/soutien-scolaire/aide-aux-devoirs.html" >Aide aux devoirs (Collèges)</a></li><li class="item-140"><a href="/soutien-scolaire/cours-particuliers.html" >Cours particuliers</a></li><li class="item-141"><a href="/soutien-scolaire/preparation-aux-examens.html" >Préparation aux examens</a></li></ul></li><li class="item-119"><a href="/location-de-salles.html" >Location de salles</a></li><li class="item-122"><a href="/traduction.html" >Traduction</a></li><li class="item-121"><a href="/devenir-formateur.html" >Devenir Formateur</a></li><li class="item-123 has-sub parent"><a href="/?Itemid=123" >Le Centre</a><ul><li class="item-148"><a href="/contact/contact-sous-menu.html" >Contact</a></li><li class="item-145"><a href="/contact/qui-sommes-nous.html" >Qui sommes-nous?</a></li><li class="item-187"><a href="/contact/reinventons-la-formation.html" >Réinventons la formation</a></li><li class="item-188"><a href="/contact/formateur.html" >Choix du formateur</a></li><li class="item-174"><a href="/contact/sponsors.html" >Nos Références</a></li><li class="item-154"><a href="/contact/recrutement.html" >Recrutement</a></li><li class="item-152"><a href="/contact/mentions-legales.html" >Mentions légales</a></li><li class="item-155"><a href="/contact/argumenter-avec-soncas-et-cap.html" >SONCAS / CAP</a></li></ul></li></ul>
+</div>
+<script type="text/javascript">
+  var el = document.getElementById('jExt210');
+  if(el) {el.style.display += el.style.display = 'none';}
+</script>
+</div></div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

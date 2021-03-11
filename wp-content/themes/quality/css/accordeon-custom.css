@@ -1,0 +1,33 @@
+.accordionCustom {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 9px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 13px;
+    transition: 0.4s;
+}
+
+.activeCustom, .accordionCustom:hover {
+    background-color: #ccc;
+}
+
+.panelCustom {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.customContactPanel p {
+	margin-top:0px;
+}
+
+.panelCustom label {
+	font-weight:normal;
+	font-size:13px;
+}

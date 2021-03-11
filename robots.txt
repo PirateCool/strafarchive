@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admon-ajax.php
+Sitemap: https://straformation.fr/sitemap.xml

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" lang="fr-fr" dir="ltr">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <base href="http://www.straformation.fr/component/contenthistory/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>STRAFORMATION</title>
+  <link href="/templates/shaper_helix3/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/index.php?option=com_ajax&plugin=arktypography&format=json" type="text/css" />
+  <link rel="stylesheet" href="/index.php?option=com_ajax&plugin=arkbootstrap&format=json" type="text/css" />
+  <link rel="stylesheet" href="http://www.straformation.fr/media/editors/arkeditor/css/squeezebox.css" type="text/css" />
+  <script src="http://www.straformation.fr/media/editors/arkeditor/js/jquery.easing.min.js" type="text/javascript"></script>
+  <script src="http://www.straformation.fr/media/editors/arkeditor/js/squeezebox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		var j2storeURL = 'http://www.straformation.fr/';
+		(function()
+				{
+					if(typeof jQuery == 'undefined')
+						return;
+					
+					jQuery(function($)
+					{
+						if($.fn.squeezeBox)
+						{
+							$( 'a.modal' ).squeezeBox({ parse: 'rel' });
+				
+							$( 'img.modal' ).each( function( i, el )
+							{
+								$(el).squeezeBox({
+									handler: 'image',
+									url: $( el ).attr( 'src' )
+								});
+							})
+						}
+						else if(typeof(SqueezeBox) !== 'undefined')
+						{
+							$( 'img.modal' ).each( function( i, el )
+							{
+								SqueezeBox.assign( el, 
+								{
+									handler: 'image',
+									url: $( el ).attr( 'src' )
+								});
+							});
+						}
+						
+						function jModalClose() 
+						{
+							if(typeof(SqueezeBox) == 'object')
+								SqueezeBox.close();
+							else
+								ARK.squeezeBox.close();
+						}
+					
+					});
+				})();
+  </script>
+
+   	<link rel="stylesheet" href="/media/jui/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="/templates/shaper_helix3/css/frontend-edit.css" type="text/css" />
+    <link rel="stylesheet" href="/templates/shaper_helix3/css/template.css" type="text/css" />
+
+</head>
+<body class="contentpane">
+	<div id="system-message-container">
+			<div id="system-message">
+							<div class="alert alert-error">
+										<a class="close" data-dismiss="alert">×</a>
+
+											<h4 class="alert-heading">Erreur</h4>
+						<div>
+															<p>Vous n'êtes pas autorisé à accéder à cette ressource.</p>
+													</div>
+									</div>
+					</div>
+	</div>
+
+	
+</body>
+</html>
